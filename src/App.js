@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/Homepage';
-import CareerInfographic from './components/CareerInfographic';
+import CareerReport from './components/CareerReport';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route
           path="/:career"
-          element={<CareerInfographic />}
+          element={<CareerReport />}
         />
       </Routes>
     </Router>

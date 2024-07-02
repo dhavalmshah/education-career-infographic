@@ -1,44 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { FaRocket, FaLeaf, FaChartLine, FaBalanceScale, FaRobot, FaLock, FaDna, FaUserMd, FaSeedling, FaAtom, FaSpaceShuttle } from 'react-icons/fa';
+import { FaBriefcase, FaRocket, FaLeaf, FaChartLine, FaBalanceScale, FaRobot, FaDna, FaUserMd, FaMicrochip, FaSpaceShuttle } from 'react-icons/fa';
 
-const HomeContainer = styled.div`
-  background-color: #f0f4f8;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px 20px;
+const PageContainer = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+`;
+
+const Header = styled.header`
+  text-align: center;
+  margin-bottom: 2rem;
 `;
 
 const Title = styled.h1`
   color: #2c3e50;
-  font-size: 3rem;
-  margin-bottom: 30px;
-  text-align: center;
+  font-size: 2.5rem;
 `;
 
 const Subtitle = styled.p`
-  color: #34495e;
+  color: #7f8c8d;
   font-size: 1.2rem;
-  max-width: 600px;
-  text-align: center;
-  margin-bottom: 50px;
 `;
 
 const CareerGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  width: 100%;
-  max-width: 1200px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
 `;
 
 const CareerCard = styled(Link)`
-  background-color: white;
-  border-radius: 10px;
-  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
   text-align: center;
   text-decoration: none;
   color: #2c3e50;
@@ -53,121 +49,48 @@ const CareerCard = styled(Link)`
 
 const IconWrapper = styled.div`
   font-size: 3rem;
-  margin-bottom: 20px;
-  color: ${props => props.color};
+  margin-bottom: 1rem;
+  color: #3498db;
 `;
 
 const CareerTitle = styled.h2`
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-`;
-
-const CareerDescription = styled.p`
-  font-size: 1rem;
-  color: #7f8c8d;
+  font-size: 1.2rem;
+  margin: 0;
 `;
 
 const careers = [
-  {
-    path: '/space-engineer',
-    title: 'Space Engineer',
-    description: 'Design the future of space exploration',
-    icon: FaRocket,
-    color: '#3498db'
-  },
-  {
-    path: '/green-energy-specialist',
-    title: 'Green Energy Specialist',
-    description: 'Power the world sustainably',
-    icon: FaLeaf,
-    color: '#2ecc71'
-  },
-  {
-    path: '/wall-street-analyst',
-    title: 'Wall Street Analyst',
-    description: 'Navigate the world of high finance',
-    icon: FaChartLine,
-    color: '#e74c3c'
-  },
-  {
-    path: '/corporate-lawyer',
-    title: 'Corporate Lawyer',
-    description: 'Shape the deals that define business',
-    icon: FaBalanceScale,
-    color: '#f39c12'
-  },
-  {
-    path: '/ai-engineer',
-    title: 'AI Engineer',
-    description: 'Build intelligent systems of the future',
-    icon: FaRobot,
-    color: '#9b59b6'
-  },
-  {
-    path: '/data-privacy-officer',
-    title: 'Data Privacy Officer',
-    description: 'Protect digital rights and information',
-    icon: FaLock,
-    color: '#34495e'
-  },
-  {
-    path: '/genetic-counselor',
-    title: 'Genetic Counselor',
-    description: 'Guide patients through genomic medicine',
-    icon: FaDna,
-    color: '#1abc9c'
-  },
-  {
-    path: '/robotics-surgeon',
-    title: 'Robotics Surgeon',
-    description: 'Perform precise surgeries with advanced technology',
-    icon: FaUserMd,
-    color: '#e67e22'
-  },
-  {
-    path: '/vertical-farming-specialist',
-    title: 'Vertical Farming Specialist',
-    description: 'Revolutionize urban agriculture',
-    icon: FaSeedling,
-    color: '#27ae60'
-  },
-  {
-    path: '/quantum-computing-researcher',
-    title: 'Quantum Computing Researcher',
-    description: 'Unlock the power of quantum mechanics',
-    icon: FaAtom,
-    color: '#8e44ad'
-  },
-  {
-    path: '/space-tourism-coordinator',
-    title: 'Space Tourism Coordinator',
-    description: 'Organize out-of-this-world vacations',
-    icon: FaSpaceShuttle,
-    color: '#2c3e50'
-  }
+  { path: 'space-engineer', title: 'Space Engineer', icon: FaSpaceShuttle },
+  { path: 'green-energy-specialist', title: 'Green Energy Specialist', icon: FaLeaf },
+  { path: 'wall-street-analyst', title: 'Wall Street Analyst', icon: FaChartLine },
+  { path: 'corporate-lawyer', title: 'Corporate Lawyer (M&A Specialist)', icon: FaBalanceScale },
+  { path: 'ai-engineer', title: 'AI Engineer', icon: FaRobot },
+  { path: 'data-privacy-officer', title: 'Data Privacy Officer', icon: FaBriefcase },
+  { path: 'genetic-counselor', title: 'Genetic Counselor', icon: FaDna },
+  { path: 'robotics-surgeon', title: 'Robotics Surgeon', icon: FaUserMd },
+  { path: 'vertical-farming-specialist', title: 'Vertical Farming Specialist', icon: FaLeaf },
+  { path: 'quantum-computing-researcher', title: 'Quantum Computing Researcher', icon: FaMicrochip },
+  { path: 'space-tourism-coordinator', title: 'Space Tourism Coordinator', icon: FaRocket },
 ];
 
-function HomePage() {
+const HomePage = () => {
   return (
-    <HomeContainer>
-      <Title>Explore Your Future Career</Title>
-      <Subtitle>
-        Discover the path to your dream career. Explore detailed infographics
-        and insights into various high-impact professions of the future.
-      </Subtitle>
+    <PageContainer>
+      <Header>
+        <Title>Explore Future Careers</Title>
+        <Subtitle>Discover detailed information about exciting career paths in emerging fields</Subtitle>
+      </Header>
       <CareerGrid>
-        {careers.map((career, index) => (
-          <CareerCard key={index} to={career.path}>
-            <IconWrapper color={career.color}>
+        {careers.map((career) => (
+          <CareerCard key={career.path} to={`/${career.path}`}>
+            <IconWrapper>
               <career.icon />
             </IconWrapper>
             <CareerTitle>{career.title}</CareerTitle>
-            <CareerDescription>{career.description}</CareerDescription>
           </CareerCard>
         ))}
       </CareerGrid>
-    </HomeContainer>
+    </PageContainer>
   );
-}
+};
 
 export default HomePage;

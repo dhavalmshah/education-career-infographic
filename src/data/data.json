@@ -1,0 +1,2062 @@
+{
+  "spaceEngineer": {
+    "career_path": "Green Energy Specialist",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Environmental Science",
+          "AP Physics",
+          "AP Chemistry",
+          "AP Calculus",
+          "Computer Science",
+          "Sustainability electives"
+        ],
+        "extracurricular_activities": [
+          "Environmental club",
+          "Science fairs with renewable energy projects",
+          "Sustainability workshops or camps",
+          "Internships at local green energy companies"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Math Level 2 and Physics"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Environmental Engineering",
+          "Renewable Energy Engineering",
+          "Electrical Engineering (focus on power systems)",
+          "Mechanical Engineering (focus on energy systems)",
+          "Environmental Science"
+        ],
+        "top_universities": [
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "University of California, Berkeley",
+            "average_gpa": 3.89,
+            "sat_range": "1330-1530",
+            "act_range": "29-35",
+            "admission_rate": "16%"
+          },
+          {
+            "name": "Massachusetts Institute of Technology (MIT)",
+            "average_gpa": 4.17,
+            "sat_range": "1510-1570",
+            "act_range": "34-36",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "University of Michigan - Ann Arbor",
+            "average_gpa": 3.9,
+            "sat_range": "1340-1530",
+            "act_range": "31-34",
+            "admission_rate": "23%"
+          },
+          {
+            "name": "Cornell University",
+            "average_gpa": 4.07,
+            "sat_range": "1400-1540",
+            "act_range": "32-35",
+            "admission_rate": "11%"
+          }
+        ],
+        "key_courses": [
+          "Renewable Energy Systems",
+          "Solar and Wind Energy Technology",
+          "Energy Storage Systems",
+          "Smart Grid Technology",
+          "Environmental Impact Assessment",
+          "Sustainable Design and Construction",
+          "Energy Policy and Economics",
+          "Power Systems Engineering",
+          "Thermodynamics and Heat Transfer",
+          "Data Analysis and Energy Modeling"
+        ],
+        "experiences": [
+          "Internships at renewable energy companies",
+          "Research projects on green technologies",
+          "Participation in sustainability competitions"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Master's in Renewable Energy Engineering",
+          "Master's in Sustainable Energy Systems",
+          "Master's in Environmental Engineering"
+        ],
+        "top_universities": [
+          "Stanford University",
+          "MIT",
+          "ETH Zurich",
+          "Imperial College London",
+          "Technical University of Denmark (DTU)"
+        ],
+        "key_courses": [
+          "Advanced Renewable Energy Technologies",
+          "Energy Systems Integration",
+          "Sustainable Urban Planning",
+          "Advanced Energy Storage Systems",
+          "Climate Change Mitigation Strategies",
+          "Green Building Design"
+        ],
+        "research_activities": [
+          "Cutting-edge research in emerging green technologies",
+          "Publishing in renewable energy journals",
+          "Presenting at sustainability conferences"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-3",
+        "positions": [
+          "Junior Renewable Energy Engineer",
+          "Energy Efficiency Analyst",
+          "Sustainability Consultant",
+          "Green Building Designer"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-7",
+        "positions": [
+          "Senior Renewable Energy Engineer",
+          "Energy Project Manager",
+          "Sustainable Systems Designer",
+          "Smart Grid Specialist"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "7+",
+        "positions": [
+          "Lead Sustainability Engineer",
+          "Renewable Energy Program Director",
+          "Chief Sustainability Officer",
+          "Green Energy Policy Advisor"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Renewable energy companies (e.g., Vestas, First Solar)",
+      "Energy utilities focusing on green initiatives",
+      "Environmental consulting firms",
+      "Government agencies (e.g., Department of Energy)",
+      "Green tech startups",
+      "Sustainable construction companies"
+    ],
+    "continuous_learning": [
+      "Stay updated with latest green energy technologies",
+      "Attend renewable energy conferences and workshops",
+      "Pursue certifications (e.g., LEED AP, Certified Energy Manager)"
+    ]
+  },
+  "greenEnergySpecialist": {
+    "career_path": "Green Energy Specialist",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Environmental Science",
+          "AP Physics",
+          "AP Chemistry",
+          "AP Calculus",
+          "Computer Science",
+          "Sustainability electives"
+        ],
+        "extracurricular_activities": [
+          "Environmental club",
+          "Science fairs with renewable energy projects",
+          "Sustainability workshops or camps",
+          "Internships at local green energy companies"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Math Level 2 and Physics"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Environmental Engineering",
+          "Renewable Energy Engineering",
+          "Electrical Engineering (focus on power systems)",
+          "Mechanical Engineering (focus on energy systems)",
+          "Environmental Science"
+        ],
+        "top_universities": [
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "University of California, Berkeley",
+            "average_gpa": 3.89,
+            "sat_range": "1330-1530",
+            "act_range": "29-35",
+            "admission_rate": "16%"
+          },
+          {
+            "name": "Massachusetts Institute of Technology (MIT)",
+            "average_gpa": 4.17,
+            "sat_range": "1510-1570",
+            "act_range": "34-36",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "University of Michigan - Ann Arbor",
+            "average_gpa": 3.9,
+            "sat_range": "1340-1530",
+            "act_range": "31-34",
+            "admission_rate": "23%"
+          },
+          {
+            "name": "Cornell University",
+            "average_gpa": 4.07,
+            "sat_range": "1400-1540",
+            "act_range": "32-35",
+            "admission_rate": "11%"
+          }
+        ],
+        "key_courses": [
+          "Renewable Energy Systems",
+          "Solar and Wind Energy Technology",
+          "Energy Storage Systems",
+          "Smart Grid Technology",
+          "Environmental Impact Assessment",
+          "Sustainable Design and Construction",
+          "Energy Policy and Economics",
+          "Power Systems Engineering",
+          "Thermodynamics and Heat Transfer",
+          "Data Analysis and Energy Modeling"
+        ],
+        "experiences": [
+          "Internships at renewable energy companies",
+          "Research projects on green technologies",
+          "Participation in sustainability competitions"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Master's in Renewable Energy Engineering",
+          "Master's in Sustainable Energy Systems",
+          "Master's in Environmental Engineering"
+        ],
+        "top_universities": [
+          "Stanford University",
+          "MIT",
+          "ETH Zurich",
+          "Imperial College London",
+          "Technical University of Denmark (DTU)"
+        ],
+        "key_courses": [
+          "Advanced Renewable Energy Technologies",
+          "Energy Systems Integration",
+          "Sustainable Urban Planning",
+          "Advanced Energy Storage Systems",
+          "Climate Change Mitigation Strategies",
+          "Green Building Design"
+        ],
+        "research_activities": [
+          "Cutting-edge research in emerging green technologies",
+          "Publishing in renewable energy journals",
+          "Presenting at sustainability conferences"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-3",
+        "positions": [
+          "Junior Renewable Energy Engineer",
+          "Energy Efficiency Analyst",
+          "Sustainability Consultant",
+          "Green Building Designer"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-7",
+        "positions": [
+          "Senior Renewable Energy Engineer",
+          "Energy Project Manager",
+          "Sustainable Systems Designer",
+          "Smart Grid Specialist"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "7+",
+        "positions": [
+          "Lead Sustainability Engineer",
+          "Renewable Energy Program Director",
+          "Chief Sustainability Officer",
+          "Green Energy Policy Advisor"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Renewable energy companies (e.g., Vestas, First Solar)",
+      "Energy utilities focusing on green initiatives",
+      "Environmental consulting firms",
+      "Government agencies (e.g., Department of Energy)",
+      "Green tech startups",
+      "Sustainable construction companies"
+    ],
+    "continuous_learning": [
+      "Stay updated with latest green energy technologies",
+      "Attend renewable energy conferences and workshops",
+      "Pursue certifications (e.g., LEED AP, Certified Energy Manager)"
+    ]
+  },
+  "wallStreetAnalyst": {
+    "career_path": "Wall Street Analyst",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Calculus",
+          "AP Statistics",
+          "AP Economics (Micro and Macro)",
+          "AP Computer Science",
+          "Business electives",
+          "Public Speaking"
+        ],
+        "extracurricular_activities": [
+          "Investment club",
+          "Debate team",
+          "Business case competitions",
+          "Internships at local financial firms"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Math Level 2 and Economics"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Finance",
+          "Economics",
+          "Business Administration",
+          "Accounting",
+          "Mathematics",
+          "Statistics"
+        ],
+        "top_universities": [
+          {
+            "name": "University of Pennsylvania (Wharton)",
+            "average_gpa": 3.8,
+            "sat_range": "1460-1550",
+            "act_range": "33-35",
+            "admission_rate": "8%"
+          },
+          {
+            "name": "New York University (Stern)",
+            "average_gpa": 3.7,
+            "sat_range": "1370-1510",
+            "act_range": "31-34",
+            "admission_rate": "16%"
+          },
+          {
+            "name": "Harvard University",
+            "average_gpa": 4.18,
+            "sat_range": "1460-1580",
+            "act_range": "33-35",
+            "admission_rate": "5%"
+          },
+          {
+            "name": "Columbia University",
+            "average_gpa": 4.12,
+            "sat_range": "1450-1560",
+            "act_range": "33-35",
+            "admission_rate": "5%"
+          },
+          {
+            "name": "Massachusetts Institute of Technology (MIT)",
+            "average_gpa": 4.17,
+            "sat_range": "1510-1570",
+            "act_range": "34-36",
+            "admission_rate": "4%"
+          }
+        ],
+        "key_courses": [
+          "Financial Accounting",
+          "Corporate Finance",
+          "Investment Analysis",
+          "Financial Modeling",
+          "Econometrics",
+          "Quantitative Analysis",
+          "Business Valuation",
+          "Financial Markets and Institutions",
+          "Derivatives and Risk Management",
+          "Business Ethics"
+        ],
+        "experiences": [
+          "Summer internships at investment banks",
+          "Participation in finance competitions",
+          "Student-managed investment funds",
+          "Financial research projects"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Master of Business Administration (MBA)",
+          "Master in Finance",
+          "Master in Financial Engineering"
+        ],
+        "top_universities": [
+          "Harvard Business School",
+          "Stanford Graduate School of Business",
+          "University of Pennsylvania (Wharton)",
+          "Columbia Business School",
+          "University of Chicago (Booth)"
+        ],
+        "key_courses": [
+          "Advanced Financial Analysis",
+          "Mergers and Acquisitions",
+          "Private Equity and Venture Capital",
+          "Advanced Econometrics",
+          "Behavioral Finance",
+          "Financial Technology (FinTech)"
+        ],
+        "research_activities": [
+          "Publishing financial research papers",
+          "Presenting at finance conferences",
+          "Collaborating on industry reports"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-2",
+        "positions": [
+          "Junior Financial Analyst",
+          "Investment Banking Analyst",
+          "Equity Research Associate",
+          "Credit Analyst"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-6",
+        "positions": [
+          "Senior Financial Analyst",
+          "Investment Banking Associate",
+          "Equity Research Analyst",
+          "Portfolio Manager Associate"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "7+",
+        "positions": [
+          "Vice President",
+          "Director of Research",
+          "Senior Portfolio Manager",
+          "Chief Investment Officer"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Investment banks (e.g., Goldman Sachs, Morgan Stanley, J.P. Morgan)",
+      "Asset management firms",
+      "Hedge funds",
+      "Private equity firms",
+      "Financial advisory firms",
+      "Rating agencies (e.g., Moody's, S&P)"
+    ],
+    "continuous_learning": [
+      "Pursue professional certifications (e.g., CFA, FRM)",
+      "Stay updated with financial markets and economic trends",
+      "Attend financial conferences and seminars",
+      "Network with industry professionals"
+    ]
+  },
+  "corporateLawyer": {
+    "career_path": "Corporate Lawyer (M&A Specialist)",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP English Language and Composition",
+          "AP English Literature",
+          "AP Government and Politics",
+          "AP Economics (Micro and Macro)",
+          "AP History",
+          "Public Speaking",
+          "Debate"
+        ],
+        "extracurricular_activities": [
+          "Debate team",
+          "Mock trial",
+          "Student government",
+          "Model United Nations",
+          "Internships at local law firms"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Literature and History"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Pre-Law",
+          "Business Administration",
+          "Economics",
+          "Political Science",
+          "Philosophy",
+          "English"
+        ],
+        "top_universities": [
+          {
+            "name": "Harvard University",
+            "average_gpa": 4.18,
+            "sat_range": "1460-1580",
+            "act_range": "33-35",
+            "admission_rate": "5%"
+          },
+          {
+            "name": "Yale University",
+            "average_gpa": 4.14,
+            "sat_range": "1460-1570",
+            "act_range": "33-35",
+            "admission_rate": "6%"
+          },
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "University of Pennsylvania",
+            "average_gpa": 3.9,
+            "sat_range": "1460-1550",
+            "act_range": "33-35",
+            "admission_rate": "8%"
+          },
+          {
+            "name": "Columbia University",
+            "average_gpa": 4.12,
+            "sat_range": "1450-1560",
+            "act_range": "33-35",
+            "admission_rate": "5%"
+          }
+        ],
+        "key_courses": [
+          "Introduction to Law",
+          "Business Law",
+          "Constitutional Law",
+          "Microeconomics",
+          "Macroeconomics",
+          "Accounting",
+          "Corporate Finance",
+          "Logic and Critical Thinking",
+          "Ethics",
+          "Public Speaking"
+        ],
+        "experiences": [
+          "Internships at law firms",
+          "Legal clinics",
+          "Research assistant for law professors",
+          "Participation in moot court competitions"
+        ]
+      },
+      {
+        "stage": "Law School",
+        "degree_options": ["Juris Doctor (J.D.)"],
+        "top_universities": [
+          "Yale Law School",
+          "Stanford Law School",
+          "Harvard Law School",
+          "Columbia Law School",
+          "University of Chicago Law School"
+        ],
+        "key_courses": [
+          "Contracts",
+          "Corporations",
+          "Securities Regulation",
+          "Mergers and Acquisitions",
+          "Corporate Finance",
+          "Antitrust Law",
+          "Tax Law",
+          "Negotiation and Mediation",
+          "International Business Transactions",
+          "Intellectual Property Law"
+        ],
+        "experiences": [
+          "Law Review or Journal participation",
+          "Summer associate positions at top law firms",
+          "Clinics focusing on business law",
+          "Moot court competitions"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-3",
+        "positions": ["Associate Attorney", "Junior M&A Lawyer"]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "4-8",
+        "positions": ["Senior Associate", "M&A Specialist"]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "9+",
+        "positions": ["Partner", "Senior M&A Counsel", "Head of M&A Practice"]
+      }
+    ],
+    "potential_employers": [
+      "Large corporate law firms (e.g., Skadden, Latham & Watkins, Kirkland & Ellis)",
+      "Investment banks (legal departments)",
+      "Multinational corporations (in-house counsel)",
+      "Private equity firms",
+      "Consulting firms (legal consulting)"
+    ],
+    "continuous_learning": [
+      "Stay updated with changes in corporate and securities law",
+      "Attend legal conferences and seminars",
+      "Pursue additional certifications (e.g., CFA for finance knowledge)",
+      "Contribute to legal publications",
+      "Develop expertise in specific industries or types of transactions"
+    ],
+    "additional_requirements": [
+      "Pass the bar exam in the state of practice",
+      "Maintain active bar membership",
+      "Fulfill Continuing Legal Education (CLE) requirements"
+    ]
+  },
+  "aiEngineer": {
+    "career_path": "AI Engineer",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Computer Science",
+          "AP Calculus (AB and BC)",
+          "AP Statistics",
+          "AP Physics",
+          "Machine Learning electives (if available)",
+          "Robotics electives"
+        ],
+        "extracurricular_activities": [
+          "Coding club",
+          "Robotics team",
+          "Math team",
+          "Science fairs with AI/ML projects",
+          "AI/ML online courses or bootcamps"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Math Level 2 and Physics"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Computer Science",
+          "Artificial Intelligence",
+          "Data Science",
+          "Applied Mathematics",
+          "Cognitive Science",
+          "Electrical Engineering and Computer Science (EECS)"
+        ],
+        "top_universities": [
+          {
+            "name": "Carnegie Mellon University",
+            "average_gpa": 3.84,
+            "sat_range": "1460-1560",
+            "act_range": "33-35",
+            "admission_rate": "15%"
+          },
+          {
+            "name": "Massachusetts Institute of Technology (MIT)",
+            "average_gpa": 4.17,
+            "sat_range": "1510-1570",
+            "act_range": "34-36",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "University of California, Berkeley",
+            "average_gpa": 3.89,
+            "sat_range": "1330-1530",
+            "act_range": "29-35",
+            "admission_rate": "16%"
+          },
+          {
+            "name": "Georgia Institute of Technology",
+            "average_gpa": 4.07,
+            "sat_range": "1370-1530",
+            "act_range": "31-34",
+            "admission_rate": "21%"
+          }
+        ],
+        "key_courses": [
+          "Data Structures and Algorithms",
+          "Machine Learning",
+          "Deep Learning",
+          "Natural Language Processing",
+          "Computer Vision",
+          "Artificial Intelligence",
+          "Linear Algebra",
+          "Probability and Statistics",
+          "Neural Networks",
+          "Big Data Analytics"
+        ],
+        "experiences": [
+          "AI research projects",
+          "Internships at tech companies or AI startups",
+          "Participation in AI/ML competitions (e.g., Kaggle)",
+          "Contributing to open-source AI projects"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Master's in Artificial Intelligence",
+          "Master's in Machine Learning",
+          "Master's in Computer Science (AI specialization)",
+          "Ph.D. in AI or related fields"
+        ],
+        "top_universities": [
+          "Carnegie Mellon University",
+          "Stanford University",
+          "MIT",
+          "UC Berkeley",
+          "University of Toronto"
+        ],
+        "key_courses": [
+          "Advanced Machine Learning",
+          "Reinforcement Learning",
+          "Probabilistic Graphical Models",
+          "Robotics",
+          "AI Ethics and Safety",
+          "Quantum Computing for AI"
+        ],
+        "research_activities": [
+          "Publishing papers in top AI conferences (e.g., NeurIPS, ICML, ICLR)",
+          "Collaborating on cutting-edge AI research projects",
+          "Presenting at AI symposiums and workshops"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-2",
+        "positions": [
+          "Junior AI Engineer",
+          "Machine Learning Engineer",
+          "AI Research Assistant",
+          "Data Scientist"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-5",
+        "positions": [
+          "Senior AI Engineer",
+          "AI Project Lead",
+          "Machine Learning Specialist",
+          "AI Algorithm Developer"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "6+",
+        "positions": [
+          "AI Architect",
+          "Principal AI Scientist",
+          "Head of AI Research",
+          "Chief AI Officer"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Tech giants (e.g., Google, Facebook, Apple, Amazon)",
+      "AI-focused startups",
+      "Research institutions and universities",
+      "Consulting firms (AI consulting)",
+      "Financial institutions (for AI-driven trading)",
+      "Healthcare companies (for medical AI applications)"
+    ],
+    "continuous_learning": [
+      "Stay updated with latest AI research and breakthroughs",
+      "Attend AI conferences (e.g., NeurIPS, ICML, ICLR)",
+      "Participate in AI hackathons and competitions",
+      "Contribute to open-source AI projects",
+      "Pursue additional certifications (e.g., Google's TensorFlow, NVIDIA's Deep Learning Institute)"
+    ],
+    "skills_to_develop": [
+      "Programming (Python, R, Java, C++)",
+      "Deep learning frameworks (TensorFlow, PyTorch)",
+      "Cloud platforms (AWS, Google Cloud, Azure)",
+      "Big data technologies (Hadoop, Spark)",
+      "Version control (Git)",
+      "Data visualization",
+      "Problem-solving and critical thinking"
+    ]
+  },
+  "dataPrivacyOfficer": {
+    "career_path": "Data Privacy Officer",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Computer Science",
+          "AP Statistics",
+          "AP Government and Politics",
+          "AP Psychology",
+          "Ethics courses",
+          "Public Speaking"
+        ],
+        "extracurricular_activities": [
+          "Debate club",
+          "Model United Nations",
+          "Computer Science club",
+          "Student government",
+          "Privacy and cybersecurity workshops (if available)"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Math and Literature"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Computer Science",
+          "Information Systems",
+          "Cybersecurity",
+          "Law",
+          "Business Administration",
+          "Data Science"
+        ],
+        "top_universities": [
+          {
+            "name": "Carnegie Mellon University",
+            "average_gpa": 3.84,
+            "sat_range": "1460-1560",
+            "act_range": "33-35",
+            "admission_rate": "15%"
+          },
+          {
+            "name": "Georgetown University",
+            "average_gpa": 3.89,
+            "sat_range": "1380-1550",
+            "act_range": "31-34",
+            "admission_rate": "14%"
+          },
+          {
+            "name": "University of California, Berkeley",
+            "average_gpa": 3.89,
+            "sat_range": "1330-1530",
+            "act_range": "29-35",
+            "admission_rate": "16%"
+          },
+          {
+            "name": "New York University",
+            "average_gpa": 3.7,
+            "sat_range": "1370-1510",
+            "act_range": "31-34",
+            "admission_rate": "16%"
+          },
+          {
+            "name": "University of Washington",
+            "average_gpa": 3.8,
+            "sat_range": "1240-1440",
+            "act_range": "27-33",
+            "admission_rate": "48%"
+          }
+        ],
+        "key_courses": [
+          "Introduction to Data Privacy",
+          "Cybersecurity Fundamentals",
+          "Information Systems and Data Management",
+          "Business Ethics",
+          "Introduction to Law and Regulation",
+          "Statistics and Data Analysis",
+          "Database Systems",
+          "Network Security",
+          "Risk Management",
+          "Organizational Behavior"
+        ],
+        "experiences": [
+          "Internships in compliance departments",
+          "Privacy-related research projects",
+          "Participation in cybersecurity competitions",
+          "Volunteer work with privacy advocacy groups"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Master's in Cybersecurity",
+          "Master's in Information Systems",
+          "Master's in Data Science",
+          "Law Degree (J.D.) with focus on Privacy Law",
+          "MBA with concentration in Information Systems"
+        ],
+        "top_universities": [
+          "UC Berkeley School of Information",
+          "Carnegie Mellon University",
+          "Harvard Law School",
+          "Stanford Law School",
+          "MIT Sloan School of Management"
+        ],
+        "key_courses": [
+          "Advanced Data Privacy and Protection",
+          "Global Privacy Laws and Regulations",
+          "Data Ethics and AI",
+          "Privacy by Design",
+          "Information Security Governance",
+          "Privacy Impact Assessments",
+          "Data Breach Response and Management"
+        ],
+        "research_activities": [
+          "Publishing papers on privacy policies and practices",
+          "Conducting privacy impact assessments",
+          "Developing privacy-enhancing technologies"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-2",
+        "positions": [
+          "Privacy Analyst",
+          "Data Protection Associate",
+          "Compliance Specialist",
+          "Information Security Analyst"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-5",
+        "positions": [
+          "Privacy Manager",
+          "Data Protection Officer",
+          "Compliance Manager",
+          "Information Governance Specialist"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "6+",
+        "positions": [
+          "Chief Privacy Officer",
+          "Director of Data Protection",
+          "Global Privacy Counsel",
+          "Head of Information Governance"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Tech companies (e.g., Google, Facebook, Apple)",
+      "Financial institutions",
+      "Healthcare organizations",
+      "Government agencies",
+      "Consulting firms",
+      "Multinational corporations across various industries"
+    ],
+    "continuous_learning": [
+      "Stay updated with evolving privacy laws and regulations (e.g., GDPR, CCPA)",
+      "Attend privacy and data protection conferences",
+      "Participate in privacy law forums and discussions",
+      "Pursue professional certifications"
+    ],
+    "key_certifications": [
+      "Certified Information Privacy Professional (CIPP)",
+      "Certified Information Systems Security Professional (CISSP)",
+      "Certified Information Privacy Manager (CIPM)",
+      "Certified in Risk and Information Systems Control (CRISC)",
+      "Certified Data Privacy Solutions Engineer (CDPSE)"
+    ],
+    "skills_to_develop": [
+      "Data protection laws and regulations",
+      "Risk assessment and management",
+      "Information security principles",
+      "Data governance",
+      "Privacy impact assessments",
+      "Compliance monitoring and auditing",
+      "Stakeholder communication and training",
+      "Ethical decision-making",
+      "Technology trends affecting privacy"
+    ]
+  },
+  "geneticCounselor": {
+    "career_path": "Genetic Counselor",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Biology",
+          "AP Chemistry",
+          "AP Psychology",
+          "AP Statistics",
+          "Anatomy and Physiology",
+          "Genetics (if available)",
+          "Public Speaking"
+        ],
+        "extracurricular_activities": [
+          "Science club",
+          "Volunteering at hospitals or health clinics",
+          "Peer counseling programs",
+          "Participation in science fairs",
+          "Shadowing genetic counselors or healthcare professionals"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Biology and Chemistry"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Biology",
+          "Genetics",
+          "Psychology",
+          "Biochemistry",
+          "Public Health",
+          "Pre-Med"
+        ],
+        "top_universities": [
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "University of California, Berkeley",
+            "average_gpa": 3.89,
+            "sat_range": "1330-1530",
+            "act_range": "29-35",
+            "admission_rate": "16%"
+          },
+          {
+            "name": "Johns Hopkins University",
+            "average_gpa": 3.92,
+            "sat_range": "1470-1570",
+            "act_range": "33-35",
+            "admission_rate": "11%"
+          },
+          {
+            "name": "University of Michigan",
+            "average_gpa": 3.9,
+            "sat_range": "1340-1530",
+            "act_range": "31-34",
+            "admission_rate": "23%"
+          },
+          {
+            "name": "University of Wisconsin-Madison",
+            "average_gpa": 3.86,
+            "sat_range": "1300-1480",
+            "act_range": "27-32",
+            "admission_rate": "54%"
+          }
+        ],
+        "key_courses": [
+          "Genetics",
+          "Molecular Biology",
+          "Biochemistry",
+          "Human Physiology",
+          "Psychology",
+          "Medical Ethics",
+          "Statistics",
+          "Embryology",
+          "Cell Biology",
+          "Introduction to Genetic Counseling"
+        ],
+        "experiences": [
+          "Research assistant in genetics labs",
+          "Internships at genetic testing companies",
+          "Volunteering at hospitals or clinics",
+          "Shadowing genetic counselors",
+          "Participation in genetic research projects"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": ["Master's in Genetic Counseling"],
+        "top_universities": [
+          "Stanford University",
+          "Johns Hopkins University",
+          "University of Michigan",
+          "Northwestern University",
+          "Emory University"
+        ],
+        "key_courses": [
+          "Advanced Human Genetics",
+          "Genetic Counseling Theory and Practice",
+          "Clinical Cancer Genetics",
+          "Prenatal Genetic Counseling",
+          "Psychosocial Aspects of Genetic Counseling",
+          "Research Methods in Genetics",
+          "Ethical Issues in Genetics",
+          "Medical Genetics",
+          "Genetic Testing and Genomic Medicine"
+        ],
+        "clinical_rotations": [
+          "Prenatal genetics clinics",
+          "Cancer genetics clinics",
+          "Pediatric genetics clinics",
+          "Adult genetics clinics",
+          "Specialty clinics (e.g., neurogenetics, cardiovascular genetics)"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-2",
+        "positions": [
+          "Genetic Counselor",
+          "Clinical Genetic Counselor",
+          "Research Genetic Counselor"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-7",
+        "positions": [
+          "Senior Genetic Counselor",
+          "Specialty Genetic Counselor (e.g., Cancer, Prenatal)",
+          "Genetic Counseling Program Coordinator"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "8+",
+        "positions": [
+          "Lead Genetic Counselor",
+          "Genetic Counseling Program Director",
+          "Clinical Director of Genetic Services",
+          "Genetic Services Manager"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Hospitals and medical centers",
+      "Genetic testing laboratories",
+      "Biotechnology and pharmaceutical companies",
+      "Academic institutions and research centers",
+      "Public health departments",
+      "Private practices",
+      "Telemedicine companies"
+    ],
+    "continuous_learning": [
+      "Stay updated with advances in genetics and genomic medicine",
+      "Attend genetic counseling conferences and workshops",
+      "Participate in professional development courses",
+      "Engage in ongoing research activities",
+      "Pursue specialized certifications"
+    ],
+    "key_certifications": [
+      "American Board of Genetic Counseling (ABGC) Certification",
+      "State licensure (where required)"
+    ],
+    "skills_to_develop": [
+      "In-depth knowledge of genetics and genomics",
+      "Strong interpersonal and communication skills",
+      "Counseling and psychosocial assessment skills",
+      "Critical thinking and problem-solving abilities",
+      "Empathy and emotional intelligence",
+      "Ability to explain complex genetic information in understandable terms",
+      "Familiarity with genetic testing technologies and interpretation",
+      "Cultural competency",
+      "Ethical decision-making",
+      "Research skills and statistical analysis"
+    ],
+    "professional_organizations": [
+      "National Society of Genetic Counselors (NSGC)",
+      "American Society of Human Genetics (ASHG)",
+      "American Board of Genetic Counseling (ABGC)"
+    ]
+  },
+  "roboticsSurgeon": {
+    "career_path": "Robotics Surgeon",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Biology",
+          "AP Chemistry",
+          "AP Physics",
+          "AP Calculus",
+          "AP Computer Science",
+          "Anatomy and Physiology",
+          "Robotics (if available)"
+        ],
+        "extracurricular_activities": [
+          "Robotics club",
+          "Science club",
+          "Volunteering at hospitals",
+          "Shadowing surgeons or medical professionals",
+          "Participation in science fairs",
+          "Summer programs in medicine or robotics"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Biology, Chemistry, and Math"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Pre-Med",
+          "Biomedical Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Computer Science with focus on Robotics"
+        ],
+        "top_universities": [
+          {
+            "name": "Johns Hopkins University",
+            "average_gpa": 3.92,
+            "sat_range": "1470-1570",
+            "act_range": "33-35",
+            "admission_rate": "11%"
+          },
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "Massachusetts Institute of Technology (MIT)",
+            "average_gpa": 4.17,
+            "sat_range": "1510-1570",
+            "act_range": "34-36",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "Harvard University",
+            "average_gpa": 4.18,
+            "sat_range": "1460-1580",
+            "act_range": "33-35",
+            "admission_rate": "5%"
+          },
+          {
+            "name": "University of Pennsylvania",
+            "average_gpa": 3.9,
+            "sat_range": "1460-1550",
+            "act_range": "33-35",
+            "admission_rate": "8%"
+          }
+        ],
+        "key_courses": [
+          "Biology",
+          "Chemistry",
+          "Physics",
+          "Calculus",
+          "Computer Science",
+          "Introduction to Robotics",
+          "Anatomy and Physiology",
+          "Biomedical Instrumentation",
+          "Signals and Systems",
+          "Control Systems"
+        ],
+        "experiences": [
+          "Research in robotics labs",
+          "Pre-med internships",
+          "Shadowing surgeons",
+          "Participation in robotics competitions",
+          "Volunteering in hospitals"
+        ]
+      },
+      {
+        "stage": "Medical School",
+        "degree": "Doctor of Medicine (MD)",
+        "top_medical_schools": [
+          "Harvard Medical School",
+          "Johns Hopkins University School of Medicine",
+          "Stanford University School of Medicine",
+          "University of Pennsylvania Perelman School of Medicine",
+          "Columbia University Vagelos College of Physicians and Surgeons"
+        ],
+        "key_courses": [
+          "Anatomy",
+          "Physiology",
+          "Pathology",
+          "Pharmacology",
+          "Medical Ethics",
+          "Surgery",
+          "Robotics in Medicine",
+          "Minimally Invasive Surgery Techniques"
+        ],
+        "clinical_rotations": [
+          "General Surgery",
+          "Robotics Surgery",
+          "Internal Medicine",
+          "Obstetrics and Gynecology",
+          "Pediatrics",
+          "Psychiatry",
+          "Family Medicine"
+        ]
+      },
+      {
+        "stage": "Residency and Fellowship",
+        "residency": {
+          "specialty": "General Surgery",
+          "duration": "5 years"
+        },
+        "fellowship": {
+          "specialty": "Robotics Surgery",
+          "duration": "1-2 years"
+        },
+        "key_experiences": [
+          "Extensive training in various surgical procedures",
+          "Gradual increase in surgical responsibilities",
+          "Training on robotic surgical systems",
+          "Research in robotic surgical techniques",
+          "Participation in robotic surgery conferences and workshops"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-5",
+        "positions": ["Robotics Surgery Fellow", "Junior Robotics Surgeon"]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "5-10",
+        "positions": [
+          "Attending Robotics Surgeon",
+          "Assistant Professor of Robotic Surgery"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "10+",
+        "positions": [
+          "Chief of Robotics Surgery",
+          "Director of Robotics Surgery Program",
+          "Professor of Robotic Surgery"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Major hospitals and medical centers",
+      "Academic medical institutions",
+      "Specialized surgical centers",
+      "Research institutions focusing on surgical robotics",
+      "Robotics companies (as consultants or researchers)"
+    ],
+    "continuous_learning": [
+      "Stay updated with advances in robotic surgical systems",
+      "Attend robotics surgery conferences and workshops",
+      "Participate in continuing medical education courses",
+      "Engage in ongoing research in robotic surgery techniques",
+      "Train on new robotic surgical systems as they are developed"
+    ],
+    "key_certifications": [
+      "Board Certification in General Surgery",
+      "Fellowship training in Robotic Surgery",
+      "Certification in specific robotic surgical systems (e.g., da Vinci Surgical System)"
+    ],
+    "skills_to_develop": [
+      "Advanced surgical techniques",
+      "Proficiency in operating robotic surgical systems",
+      "Strong hand-eye coordination and dexterity",
+      "In-depth understanding of human anatomy and physiology",
+      "Problem-solving and decision-making in complex surgical situations",
+      "Leadership and team management in the operating room",
+      "Communication skills for patient consultations and team coordination",
+      "Research skills for advancing robotic surgical techniques",
+      "Adaptability to new technologies and surgical methods"
+    ],
+    "professional_organizations": [
+      "Society of Robotic Surgery",
+      "American College of Surgeons",
+      "Association for Academic Surgery",
+      "Society of American Gastrointestinal and Endoscopic Surgeons (SAGES)"
+    ],
+    "challenges_and_rewards": {
+      "challenges": [
+        "Long and demanding education and training pathway",
+        "High-stress work environment",
+        "Constant need to stay updated with rapidly evolving technology",
+        "Balancing patient care with research and technological advancement"
+      ],
+      "rewards": [
+        "Opportunity to be at the forefront of surgical innovation",
+        "Ability to perform complex surgeries with enhanced precision",
+        "Potential for improved patient outcomes and faster recovery times",
+        "Intellectual stimulation from combining medical and technological expertise"
+      ]
+    }
+  },
+  "verticalFarmingSpecialist": {
+    "career_path": "Vertical Farming Specialist",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Biology",
+          "AP Environmental Science",
+          "AP Chemistry",
+          "AP Physics",
+          "AP Computer Science",
+          "Horticulture (if available)",
+          "Agriculture (if available)"
+        ],
+        "extracurricular_activities": [
+          "Gardening club",
+          "Environmental club",
+          "Science fairs with agriculture/botany projects",
+          "4-H or FFA (Future Farmers of America)",
+          "Volunteering at local farms or botanical gardens"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Biology and Chemistry"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Agricultural Science",
+          "Horticulture",
+          "Plant Science",
+          "Environmental Science",
+          "Sustainable Agriculture",
+          "Agricultural Engineering"
+        ],
+        "top_universities": [
+          {
+            "name": "Cornell University",
+            "average_gpa": 3.9,
+            "sat_range": "1400-1560",
+            "act_range": "32-35",
+            "admission_rate": "11%"
+          },
+          {
+            "name": "University of California, Davis",
+            "average_gpa": 4.0,
+            "sat_range": "1220-1500",
+            "act_range": "27-33",
+            "admission_rate": "39%"
+          },
+          {
+            "name": "Purdue University",
+            "average_gpa": 3.7,
+            "sat_range": "1190-1440",
+            "act_range": "25-32",
+            "admission_rate": "60%"
+          },
+          {
+            "name": "Wageningen University & Research (Netherlands)",
+            "note": "Known for agricultural sciences, admission criteria vary"
+          },
+          {
+            "name": "University of Florida",
+            "average_gpa": 4.4,
+            "sat_range": "1330-1470",
+            "act_range": "29-33",
+            "admission_rate": "37%"
+          }
+        ],
+        "key_courses": [
+          "Plant Biology",
+          "Soil Science",
+          "Hydroponic Systems",
+          "Controlled Environment Agriculture",
+          "Plant Nutrition and Fertilizers",
+          "Agricultural Technology and Automation",
+          "Crop Production",
+          "Pest and Disease Management",
+          "Sustainable Agriculture Practices",
+          "Introduction to Vertical Farming"
+        ],
+        "experiences": [
+          "Internships at vertical farms or agricultural technology companies",
+          "Research projects in controlled environment agriculture",
+          "Participation in agricultural hackathons or innovation contests",
+          "Volunteering or working at community gardens or urban farms"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Master's in Horticulture",
+          "Master's in Agricultural Engineering",
+          "Master's in Controlled Environment Agriculture",
+          "Ph.D. in Plant Science or related fields"
+        ],
+        "top_universities": [
+          "Wageningen University & Research (Netherlands)",
+          "Cornell University",
+          "University of Arizona (Controlled Environment Agriculture Center)",
+          "Michigan State University",
+          "Texas A&M University"
+        ],
+        "key_courses": [
+          "Advanced Hydroponics and Aquaponics",
+          "Vertical Farming Systems Design",
+          "Plant Physiology in Controlled Environments",
+          "LED Lighting for Plant Growth",
+          "Automation and Robotics in Agriculture",
+          "Urban Agriculture and Food Systems",
+          "Biosystems Engineering",
+          "Data Analytics in Agriculture"
+        ],
+        "research_activities": [
+          "Developing new vertical farming technologies",
+          "Optimizing plant growth in controlled environments",
+          "Studying resource efficiency in vertical farming systems",
+          "Investigating novel crops for vertical farming"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-2",
+        "positions": [
+          "Vertical Farm Technician",
+          "Junior Agronomist",
+          "Hydroponic Specialist",
+          "Agricultural Technology Associate"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-5",
+        "positions": [
+          "Vertical Farm Manager",
+          "Senior Agronomist",
+          "Controlled Environment Agriculture Specialist",
+          "Agricultural Systems Engineer"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "6+",
+        "positions": [
+          "Director of Vertical Farming Operations",
+          "Chief Technology Officer (Agtech company)",
+          "Lead Agricultural Scientist",
+          "Vertical Farming Consultant"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Vertical farming companies (e.g., AeroFarms, Plenty, Bowery Farming)",
+      "Agricultural technology startups",
+      "Traditional agriculture companies expanding into vertical farming",
+      "Research institutions and universities",
+      "Government agencies focused on agriculture and food security",
+      "Consulting firms specializing in sustainable agriculture"
+    ],
+    "continuous_learning": [
+      "Stay updated with advances in vertical farming technologies",
+      "Attend agriculture and technology conferences",
+      "Participate in webinars and online courses on controlled environment agriculture",
+      "Engage in ongoing research in plant science and agricultural engineering",
+      "Learn about new sustainability practices and regulations in agriculture"
+    ],
+    "key_certifications": [
+      "Certified Crop Adviser (CCA)",
+      "Certified Greenhouse Operator",
+      "USDA Good Agricultural Practices (GAP) certification",
+      "Certifications in specific hydroponic or aeroponic systems"
+    ],
+    "skills_to_develop": [
+      "In-depth knowledge of plant biology and crop science",
+      "Proficiency in hydroponic and aeroponic growing systems",
+      "Understanding of controlled environment agriculture principles",
+      "Familiarity with agricultural automation and robotics",
+      "Data analysis and interpretation skills",
+      "Knowledge of food safety and quality control practices",
+      "Project management and team leadership",
+      "Problem-solving skills for optimizing plant growth and system efficiency",
+      "Understanding of sustainable agriculture practices",
+      "Familiarity with relevant software and technology platforms"
+    ],
+    "professional_organizations": [
+      "Association for Vertical Farming (AVF)",
+      "American Society for Horticultural Science (ASHS)",
+      "International Society for Horticultural Science (ISHS)",
+      "Controlled Environment Agriculture Innovation Centre"
+    ],
+    "challenges_and_rewards": {
+      "challenges": [
+        "Rapidly evolving field requiring constant learning and adaptation",
+        "Balancing technological innovation with sustainable practices",
+        "Addressing energy efficiency and resource management issues",
+        "Scaling operations while maintaining quality and consistency",
+        "Navigating regulatory challenges in urban agriculture"
+      ],
+      "rewards": [
+        "Contributing to sustainable food production and urban agriculture",
+        "Working at the intersection of technology and biology",
+        "Potential for high impact on food security and environmental sustainability",
+        "Opportunities for innovation and entrepreneurship",
+        "Being part of a growing and dynamic industry"
+      ]
+    }
+  },
+  "quantumComputingResearcher": {
+    "career_path": "Quantum Computing Researcher",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Physics C: Mechanics",
+          "AP Physics C: Electricity and Magnetism",
+          "AP Calculus BC",
+          "AP Computer Science A",
+          "AP Chemistry",
+          "Linear Algebra (if available)"
+        ],
+        "extracurricular_activities": [
+          "Physics club",
+          "Math club",
+          "Computer Science club",
+          "Science Olympiad",
+          "Participation in physics and math competitions",
+          "Summer programs in quantum physics or advanced computing"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Math Level 2 and Physics"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Physics",
+          "Computer Science",
+          "Electrical Engineering",
+          "Mathematics",
+          "Quantum Engineering (if available)"
+        ],
+        "top_universities": [
+          {
+            "name": "Massachusetts Institute of Technology (MIT)",
+            "average_gpa": 4.17,
+            "sat_range": "1510-1570",
+            "act_range": "34-36",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "California Institute of Technology (Caltech)",
+            "average_gpa": 4.19,
+            "sat_range": "1530-1580",
+            "act_range": "35-36",
+            "admission_rate": "6%"
+          },
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "Harvard University",
+            "average_gpa": 4.18,
+            "sat_range": "1460-1580",
+            "act_range": "33-35",
+            "admission_rate": "5%"
+          },
+          {
+            "name": "University of Waterloo",
+            "average_gpa": 3.9,
+            "admission_rate": "53%",
+            "note": "Known for strong quantum computing program"
+          }
+        ],
+        "key_courses": [
+          "Quantum Mechanics",
+          "Advanced Linear Algebra",
+          "Statistical Mechanics",
+          "Electromagnetism",
+          "Quantum Computation and Information",
+          "Advanced Algorithms",
+          "Computer Architecture",
+          "Quantum Algorithms",
+          "Mathematical Methods for Physics",
+          "Introduction to Quantum Computing"
+        ],
+        "experiences": [
+          "Research internships in quantum computing labs",
+          "Participation in quantum computing hackathons",
+          "Attending quantum computing workshops and summer schools",
+          "Contributing to open-source quantum computing projects"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Ph.D. in Physics (Quantum Computing focus)",
+          "Ph.D. in Computer Science (Quantum Computing focus)",
+          "Ph.D. in Electrical Engineering (Quantum Engineering focus)",
+          "Ph.D. in Applied Mathematics (Quantum Algorithms focus)"
+        ],
+        "top_universities": [
+          "MIT",
+          "Stanford University",
+          "University of California, Berkeley",
+          "Harvard University",
+          "University of Oxford",
+          "ETH Zurich",
+          "University of Waterloo"
+        ],
+        "key_courses": [
+          "Advanced Quantum Computing Theory",
+          "Quantum Error Correction and Fault Tolerance",
+          "Quantum Algorithms and Complexity",
+          "Quantum Machine Learning",
+          "Quantum Cryptography",
+          "Quantum Hardware Implementation",
+          "Quantum Many-Body Systems",
+          "Topological Quantum Computation"
+        ],
+        "research_activities": [
+          "Developing new quantum algorithms",
+          "Designing quantum error correction codes",
+          "Investigating quantum hardware architectures",
+          "Exploring quantum-classical hybrid systems",
+          "Studying quantum complexity theory",
+          "Collaborating on international quantum computing projects"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-2",
+        "positions": [
+          "Postdoctoral Researcher in Quantum Computing",
+          "Junior Quantum Scientist",
+          "Research Assistant in Quantum Technologies"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-7",
+        "positions": [
+          "Senior Quantum Researcher",
+          "Quantum Algorithm Developer",
+          "Quantum Hardware Engineer",
+          "Assistant Professor of Quantum Computing"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "8+",
+        "positions": [
+          "Principal Quantum Scientist",
+          "Research Director in Quantum Computing",
+          "Professor of Quantum Information Science",
+          "Chief Quantum Officer"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Tech giants with quantum computing divisions (e.g., IBM, Google, Microsoft)",
+      "Specialized quantum computing companies (e.g., D-Wave Systems, Rigetti Computing)",
+      "National laboratories and research institutions",
+      "Universities with strong quantum computing programs",
+      "Government agencies focused on advanced technologies",
+      "Financial institutions exploring quantum applications"
+    ],
+    "continuous_learning": [
+      "Stay updated with the latest advancements in quantum physics and computing",
+      "Attend international conferences on quantum information science",
+      "Participate in quantum computing workshops and summer schools",
+      "Engage in collaborative research projects",
+      "Contribute to peer-reviewed journals in the field"
+    ],
+    "key_skills": [
+      "Deep understanding of quantum mechanics and quantum information theory",
+      "Strong mathematical skills, especially in linear algebra and complex analysis",
+      "Proficiency in quantum programming languages (e.g., Qiskit, Cirq, Q#)",
+      "Familiarity with classical programming languages (e.g., Python, C++)",
+      "Knowledge of quantum hardware architectures",
+      "Understanding of quantum error correction and fault tolerance",
+      "Ability to design and analyze quantum algorithms",
+      "Strong problem-solving and analytical skills",
+      "Excellent written and verbal communication skills",
+      "Collaboration and teamwork in interdisciplinary environments"
+    ],
+    "professional_organizations": [
+      "American Physical Society (APS) - Division of Quantum Information",
+      "Institute of Electrical and Electronics Engineers (IEEE) Quantum",
+      "International Association for Cryptologic Research (IACR)",
+      "Quantum Economic Development Consortium (QED-C)"
+    ],
+    "challenges_and_rewards": {
+      "challenges": [
+        "Highly complex and abstract field requiring continuous learning",
+        "Rapidly evolving technology with frequent paradigm shifts",
+        "Balancing theoretical research with practical implementation",
+        "Limited availability of quantum hardware for experimentation",
+        "Addressing quantum decoherence and error correction issues"
+      ],
+      "rewards": [
+        "Working at the forefront of a revolutionary technology",
+        "Potential to make groundbreaking discoveries",
+        "Opportunity to solve complex problems intractable for classical computers",
+        "High demand for skilled professionals in a growing field",
+        "Collaboration with brilliant minds from diverse backgrounds"
+      ]
+    },
+    "impact_areas": [
+      "Cryptography and cybersecurity",
+      "Drug discovery and materials science",
+      "Financial modeling and optimization",
+      "Climate modeling and weather prediction",
+      "Artificial intelligence and machine learning"
+    ]
+  },
+  "spaceToursimCoordinator": {
+    "career_path": "Space Tourism Coordinator",
+    "education_stages": [
+      {
+        "stage": "High School",
+        "coursework": [
+          "AP Physics",
+          "AP Biology",
+          "AP Environmental Science",
+          "AP Psychology",
+          "Foreign Languages",
+          "Business or Economics",
+          "Public Speaking"
+        ],
+        "extracurricular_activities": [
+          "Astronomy club",
+          "Travel or Tourism club",
+          "Model United Nations",
+          "Student government",
+          "Volunteering in tourism or hospitality sectors",
+          "Participation in space camps or workshops"
+        ],
+        "test_preparation": [
+          "SAT or ACT",
+          "SAT Subject Tests in Science and Foreign Language"
+        ]
+      },
+      {
+        "stage": "Undergraduate Education",
+        "recommended_majors": [
+          "Tourism and Hospitality Management",
+          "Aerospace Engineering",
+          "Space Studies",
+          "Business Administration",
+          "International Relations",
+          "Psychology"
+        ],
+        "top_universities": [
+          {
+            "name": "University of Surrey",
+            "note": "Offers Tourism Management and Space Technology"
+          },
+          {
+            "name": "Embry-Riddle Aeronautical University",
+            "average_gpa": 3.7,
+            "sat_range": "1150-1350",
+            "act_range": "23-30",
+            "admission_rate": "61%"
+          },
+          {
+            "name": "Florida Institute of Technology",
+            "average_gpa": 3.9,
+            "sat_range": "1170-1380",
+            "act_range": "25-31",
+            "admission_rate": "65%"
+          },
+          {
+            "name": "University of North Dakota",
+            "average_gpa": 3.46,
+            "sat_range": "1110-1320",
+            "act_range": "22-28",
+            "admission_rate": "81%"
+          },
+          {
+            "name": "Les Roches Global Hospitality Education",
+            "note": "Renowned for hospitality management, admission criteria vary"
+          }
+        ],
+        "key_courses": [
+          "Introduction to Space Tourism",
+          "Hospitality Management",
+          "Space Systems Engineering",
+          "Aviation and Space Law",
+          "Customer Service and Experience Management",
+          "Space Environment and Life Support Systems",
+          "Marketing for Tourism",
+          "Project Management",
+          "Cross-Cultural Communication",
+          "Emergency Management and Safety Procedures"
+        ],
+        "experiences": [
+          "Internships at space tourism companies or traditional tourism agencies",
+          "Participation in space tourism conferences or workshops",
+          "Volunteering at planetariums or space museums",
+          "Customer service roles in high-end hospitality or travel industries"
+        ]
+      },
+      {
+        "stage": "Graduate Education",
+        "degree_options": [
+          "Master's in Space Studies with focus on Space Policy and Management",
+          "MBA with concentration in Tourism and Hospitality Management",
+          "Master's in Aerospace Engineering with Business minor",
+          "Master's in International Tourism Management"
+        ],
+        "top_universities": [
+          "International Space University",
+          "University of Houston - Clear Lake (Space Studies program)",
+          "George Washington University (Space Policy Institute)",
+          "University of Surrey (Space Engineering and Tourism Management)",
+          "Cornell University (Hospitality Management)"
+        ],
+        "key_courses": [
+          "Advanced Space Tourism Operations",
+          "Space Policy and Regulations",
+          "Risk Management in Extreme Environments",
+          "Luxury Experience Design",
+          "Space Psychology and Human Factors",
+          "Sustainable Space Tourism",
+          "Innovation in Hospitality and Tourism",
+          "Strategic Management for Space Businesses"
+        ],
+        "research_activities": [
+          "Studying the psychological effects of space travel on tourists",
+          "Developing sustainable practices for space tourism",
+          "Analyzing economic impacts and market trends of space tourism",
+          "Investigating safety protocols for civilian space travel"
+        ]
+      }
+    ],
+    "career_progression": [
+      {
+        "level": "Entry-Level",
+        "years_experience": "0-2",
+        "positions": [
+          "Space Tourism Associate",
+          "Customer Experience Coordinator",
+          "Space Flight Operations Trainee",
+          "Marketing Assistant for Space Tourism"
+        ]
+      },
+      {
+        "level": "Mid-Level",
+        "years_experience": "3-5",
+        "positions": [
+          "Space Tourism Program Manager",
+          "Space Experience Designer",
+          "Spaceport Operations Coordinator",
+          "Space Tourism Marketing Specialist"
+        ]
+      },
+      {
+        "level": "Senior-Level",
+        "years_experience": "6+",
+        "positions": [
+          "Director of Space Tourism Operations",
+          "Chief Experience Officer (CXO) for Space Tourism",
+          "Space Tourism Policy Advisor",
+          "Head of Space Hospitality Services"
+        ]
+      }
+    ],
+    "potential_employers": [
+      "Commercial spaceflight companies (e.g., Virgin Galactic, Blue Origin, SpaceX)",
+      "Specialized space tourism agencies",
+      "Luxury travel companies expanding into space tourism",
+      "Spaceport management organizations",
+      "Aerospace companies with space tourism divisions",
+      "Government space agencies developing tourist programs"
+    ],
+    "continuous_learning": [
+      "Stay updated with advancements in space technology and tourism",
+      "Attend space tourism and commercial spaceflight conferences",
+      "Participate in professional development courses in hospitality and tourism",
+      "Engage with space advocacy groups and industry associations",
+      "Pursue additional certifications in project management or safety"
+    ],
+    "key_skills": [
+      "Understanding of space systems and environments",
+      "Excellent customer service and interpersonal skills",
+      "Knowledge of safety protocols and emergency procedures",
+      "Project management and logistical planning",
+      "Marketing and public relations expertise",
+      "Cross-cultural communication and language skills",
+      "Problem-solving and crisis management abilities",
+      "Understanding of space law and regulations",
+      "Basic medical knowledge and first aid skills",
+      "Ability to work in high-pressure environments"
+    ],
+    "professional_organizations": [
+      "Space Tourism Society",
+      "Commercial Spaceflight Federation",
+      "International Space University Alumni Association",
+      "Space and Satellite Professionals International",
+      "World Tourism Organization (UNWTO)"
+    ],
+    "challenges_and_rewards": {
+      "challenges": [
+        "Rapidly evolving and highly speculative industry",
+        "High-stakes environment with significant safety concerns",
+        "Balancing customer expectations with technical limitations",
+        "Navigating complex international regulations and policies",
+        "Managing the psychological aspects of space travel for civilians"
+      ],
+      "rewards": [
+        "Being at the forefront of a revolutionary industry",
+        "Opportunity to create once-in-a-lifetime experiences for clients",
+        "Potential for rapid career growth in an emerging field",
+        "Combining passion for space exploration with hospitality skills",
+        "Contributing to the democratization of space travel"
+      ]
+    },
+    "future_outlook": {
+      "industry_growth": "Projected to expand significantly in the next decade",
+      "technological_advancements": "Continuous improvements in spacecraft safety and comfort",
+      "market_trends": "Increasing demand for luxury and unique travel experiences",
+      "challenges": "Regulatory hurdles and public perception of space tourism sustainability",
+      "opportunities": "Potential for new roles as the industry matures and diversifies"
+    }
+  }
+}
