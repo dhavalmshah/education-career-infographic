@@ -1,22 +1,23 @@
 {
   "spaceEngineer": {
-    "career_path": "Green Energy Specialist",
+    "career_path": "Space Engineer or Designer",
     "education_stages": [
       {
         "stage": "High School",
         "coursework": [
-          "AP Environmental Science",
-          "AP Physics",
-          "AP Chemistry",
-          "AP Calculus",
-          "Computer Science",
-          "Sustainability electives"
+          "AP or IB Physics",
+          "AP or IB Calculus",
+          "AP or IB Chemistry",
+          "AP or IB Computer Science",
+          "Engineering electives",
+          "Astronomy electives",
+          "Computer-Aided Design (CAD) electives"
         ],
         "extracurricular_activities": [
-          "Environmental club",
-          "Science fairs with renewable energy projects",
-          "Sustainability workshops or camps",
-          "Internships at local green energy companies"
+          "Robotics club or competitions",
+          "Science fairs with space-related projects",
+          "Space-themed summer camps or workshops",
+          "Internships at engineering firms or planetariums"
         ],
         "test_preparation": [
           "SAT or ACT",
@@ -26,32 +27,32 @@
       {
         "stage": "Undergraduate Education",
         "recommended_majors": [
-          "Environmental Engineering",
-          "Renewable Energy Engineering",
-          "Electrical Engineering (focus on power systems)",
-          "Mechanical Engineering (focus on energy systems)",
-          "Environmental Science"
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Electrical Engineering",
+          "Systems Engineering",
+          "Physics (focus on astrophysics)"
         ],
         "top_universities": [
-          {
-            "name": "Stanford University",
-            "average_gpa": 3.96,
-            "sat_range": "1440-1570",
-            "act_range": "32-35",
-            "admission_rate": "4%"
-          },
-          {
-            "name": "University of California, Berkeley",
-            "average_gpa": 3.89,
-            "sat_range": "1330-1530",
-            "act_range": "29-35",
-            "admission_rate": "16%"
-          },
           {
             "name": "Massachusetts Institute of Technology (MIT)",
             "average_gpa": 4.17,
             "sat_range": "1510-1570",
             "act_range": "34-36",
+            "admission_rate": "4%"
+          },
+          {
+            "name": "California Institute of Technology (Caltech)",
+            "average_gpa": 4.19,
+            "sat_range": "1530-1580",
+            "act_range": "35-36",
+            "admission_rate": "6%"
+          },
+          {
+            "name": "Stanford University",
+            "average_gpa": 3.96,
+            "sat_range": "1440-1570",
+            "act_range": "32-35",
             "admission_rate": "4%"
           },
           {
@@ -62,57 +63,57 @@
             "admission_rate": "23%"
           },
           {
-            "name": "Cornell University",
+            "name": "Georgia Institute of Technology",
             "average_gpa": 4.07,
-            "sat_range": "1400-1540",
-            "act_range": "32-35",
-            "admission_rate": "11%"
+            "sat_range": "1370-1530",
+            "act_range": "31-34",
+            "admission_rate": "21%"
           }
         ],
         "key_courses": [
-          "Renewable Energy Systems",
-          "Solar and Wind Energy Technology",
-          "Energy Storage Systems",
-          "Smart Grid Technology",
-          "Environmental Impact Assessment",
-          "Sustainable Design and Construction",
-          "Energy Policy and Economics",
-          "Power Systems Engineering",
-          "Thermodynamics and Heat Transfer",
-          "Data Analysis and Energy Modeling"
+          "Calculus and Differential Equations",
+          "Linear Algebra",
+          "Physics (Mechanics, Thermodynamics, Electromagnetism)",
+          "Aerodynamics",
+          "Spacecraft Design",
+          "Orbital Mechanics",
+          "Materials Science",
+          "Control Systems",
+          "Computer Programming (C++, Python)",
+          "Computer-Aided Design (CAD)"
         ],
         "experiences": [
-          "Internships at renewable energy companies",
-          "Research projects on green technologies",
-          "Participation in sustainability competitions"
+          "Summer internships at aerospace companies",
+          "NASA internship program",
+          "University research projects"
         ]
       },
       {
         "stage": "Graduate Education",
         "degree_options": [
-          "Master's in Renewable Energy Engineering",
-          "Master's in Sustainable Energy Systems",
-          "Master's in Environmental Engineering"
+          "Master's in Aerospace Engineering",
+          "Master's in Space Systems Engineering",
+          "Master's in Astronautical Engineering"
         ],
         "top_universities": [
           "Stanford University",
           "MIT",
-          "ETH Zurich",
-          "Imperial College London",
-          "Technical University of Denmark (DTU)"
+          "University of Michigan",
+          "Purdue University",
+          "Georgia Tech"
         ],
         "key_courses": [
-          "Advanced Renewable Energy Technologies",
-          "Energy Systems Integration",
-          "Sustainable Urban Planning",
-          "Advanced Energy Storage Systems",
-          "Climate Change Mitigation Strategies",
-          "Green Building Design"
+          "Advanced Spacecraft Dynamics and Control",
+          "Space Mission Design",
+          "Rocket Propulsion",
+          "Space Environment and Survivability",
+          "Satellite Communications",
+          "Space Policy and Economics"
         ],
         "research_activities": [
-          "Cutting-edge research in emerging green technologies",
-          "Publishing in renewable energy journals",
-          "Presenting at sustainability conferences"
+          "Cutting-edge research projects",
+          "Publishing in peer-reviewed journals",
+          "Presenting at aerospace conferences"
         ]
       }
     ],
@@ -121,45 +122,44 @@
         "level": "Entry-Level",
         "years_experience": "0-3",
         "positions": [
-          "Junior Renewable Energy Engineer",
-          "Energy Efficiency Analyst",
-          "Sustainability Consultant",
-          "Green Building Designer"
+          "Junior Aerospace Engineer",
+          "Systems Engineer",
+          "Spacecraft Design Engineer",
+          "Mission Analyst"
         ]
       },
       {
         "level": "Mid-Level",
         "years_experience": "3-7",
         "positions": [
-          "Senior Renewable Energy Engineer",
-          "Energy Project Manager",
-          "Sustainable Systems Designer",
-          "Smart Grid Specialist"
+          "Senior Aerospace Engineer",
+          "Propulsion Systems Engineer",
+          "Guidance, Navigation, and Control Engineer",
+          "Project Engineer"
         ]
       },
       {
         "level": "Senior-Level",
         "years_experience": "7+",
         "positions": [
-          "Lead Sustainability Engineer",
-          "Renewable Energy Program Director",
-          "Chief Sustainability Officer",
-          "Green Energy Policy Advisor"
+          "Lead Systems Engineer",
+          "Principal Engineer",
+          "Project Manager",
+          "Technical Director"
         ]
       }
     ],
     "potential_employers": [
-      "Renewable energy companies (e.g., Vestas, First Solar)",
-      "Energy utilities focusing on green initiatives",
-      "Environmental consulting firms",
-      "Government agencies (e.g., Department of Energy)",
-      "Green tech startups",
-      "Sustainable construction companies"
+      "NASA and other space agencies (ESA, JAXA)",
+      "SpaceX, Blue Origin, Virgin Galactic",
+      "Boeing, Lockheed Martin, Northrop Grumman",
+      "Satellite companies (e.g., Planet Labs, Maxar Technologies)",
+      "Defense contractors"
     ],
     "continuous_learning": [
-      "Stay updated with latest green energy technologies",
-      "Attend renewable energy conferences and workshops",
-      "Pursue certifications (e.g., LEED AP, Certified Energy Manager)"
+      "Stay updated with latest space technology advancements",
+      "Attend conferences and workshops",
+      "Pursue additional certifications (e.g., Systems Engineering)"
     ]
   },
   "greenEnergySpecialist": {

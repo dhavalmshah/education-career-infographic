@@ -1,21 +1,34 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { FaGraduationCap, FaBriefcase, FaChartLine, FaBuilding, FaBook, FaArrowLeft } from 'react-icons/fa';
-import careerData from '../data/data.json';
+import { FaArrowLeft, FaGraduationCap, FaBriefcase, FaChartLine, FaBook, FaUserTie, FaUniversity, FaClipboardList, FaUsers, FaFlask } from 'react-icons/fa';
+import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import careerData from '../data.json';
+
+const colors = {
+    blue: '#3498db',
+    green: '#2ecc71',
+    purple: '#9b59b6',
+    red: '#e74c3c',
+    orange: '#f39c12',
+    teal: '#1abc9c',
+    navy: '#34495e',
+    lightGray: '#ecf0f1',
+};
 
 const ReportContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Arial', sans-serif;
-  background-color: #f0f4f8;
+  background-color: ${colors.lightGray};
+  color: #333;
 `;
 
 const BackLink = styled(Link)`
   display: inline-flex;
   align-items: center;
-  color: #3498db;
+  color: ${colors.blue};
   text-decoration: none;
   margin-bottom: 1rem;
   &:hover {
@@ -24,7 +37,7 @@ const BackLink = styled(Link)`
 `;
 
 const Title = styled.h1`
-  color: #2c3e50;
+  color: #333;
   text-align: center;
   margin-bottom: 2rem;
 `;
@@ -32,345 +45,320 @@ const Title = styled.h1`
 const Section = styled.section`
   background-color: white;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 `;
 
 const SectionTitle = styled.h2`
-  color: #2c3e50;
-  border-bottom: 2px solid #3498db;
+  color: #333;
+  border-bottom: 2px solid ${colors.blue};
   padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
 `;
 
-// Career Timeline Component
+const Summary = styled.p`
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: ${colors.lightGray};
+  border-radius: 4px;
+  line-height: 1.6;
+`;
+
+const InfoGraphic = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+`;
+
+const InfoItem = styled.div`
+  background-color: ${props => props.color || colors.blue};
+  color: white;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  width: calc(33% - 1rem);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  @media (max-width: 768px) {
+    width: calc(50% - 1rem);
+  }
+`;
+
+const ProgressBar = styled.div`
+  background-color: ${colors.lightGray};
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  width: 100%;
+`;
+
+const Progress = styled.div`
+  background-color: ${colors.blue};
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: ${props => props.width}%;
+  transition: width 0.5s ease-in-out;
+`;
+
+const Table = styled.table`
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.5rem 0;
+`;
+
+const Th = styled.th`
+  background-color: ${colors.blue};
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  &:first-child {
+    border-top-left-radius: 8px;
+  }
+  &:last-child {
+    border-top-right-radius: 8px;
+  }
+`;
+
+const Td = styled.td`
+  padding: 1rem;
+  border-bottom: 1px solid ${colors.lightGray};
+  &:nth-child(even) {
+    background-color: ${colors.lightGray};
+  }
+`;
+
+const List = styled.ul`
+  list-style-type: none;
+  padding-left: 0;
+`;
+
+const ListItem = styled.li`
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: ${colors.lightGray};
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #dee2e6;
+  }
+`;
+
 const TimelineContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 20px 0;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: ${colors.blue};
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
 `;
 
 const TimelineItem = styled.div`
-  flex: 1;
-  background-color: ${props => props.color};
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 0 0.5rem;
-  color: white;
+  background-color: white;
+  border: 2px solid ${colors.blue};
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 `;
 
-const TimelineTitle = styled.h3`
-  margin-bottom: 0.5rem;
+const TimelineYear = styled.div`
+  font-weight: bold;
+  margin-bottom: 5px;
 `;
 
-const TimelineList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-`;
-
-// New components for text sections
-const TextSection = styled.div`
-  background-color: #f8f9fa;
-  border-left: 4px solid #3498db;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 4px;
-`;
-
-const SectionDescription = styled.p`
-  color: #34495e;
-  line-height: 1.6;
+const TimelineText = styled.div`
+  font-size: 0.8em;
 `;
 
 const CareerTimeline = ({ stages }) => (
     <TimelineContainer>
         {stages.map((stage, index) => (
-            <TimelineItem key={index} color={['#3498db', '#2ecc71', '#9b59b6', '#e74c3c'][index]}>
-                <TimelineTitle>{stage.stage}</TimelineTitle>
-                <TimelineList>
-                    {stage.key_points?.map((point, i) => (
-                        <li key={i}>{point}</li>
-                    ))}
-                </TimelineList>
+            <TimelineItem key={index}>
+                <TimelineYear>Year {index * 4 + 1}</TimelineYear>
+                <TimelineText>{stage.stage}</TimelineText>
             </TimelineItem>
         ))}
     </TimelineContainer>
 );
 
-// Education Roadmap Component
-const RoadmapContainer = styled.div`
-  position: relative;
-  height: 100px;
-  margin-bottom: 2rem;
-`;
+const EducationStage = ({ stage, index }) => {
+    const themeColors = [colors.blue, colors.green, colors.purple, colors.red, colors.orange, colors.teal];
 
-const RoadmapLine = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background-color: #3498db;
-`;
+    return (
+        <Section>
+            <SectionTitle>{stage.stage}</SectionTitle>
+            <Summary>
+                Stage {index + 1} of your journey: Focus on core subjects and practical experiences to build a strong foundation.
+            </Summary>
 
-const RoadmapPoint = styled.div`
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #3498db;
-`;
+            <h3><FaClipboardList /> Coursework</h3>
+            <InfoGraphic>
+                {stage.coursework?.slice(0, 6).map((course, i) => (
+                    <InfoItem key={i} color={themeColors[i % themeColors.length]}>{course}</InfoItem>
+                ))}
+            </InfoGraphic>
 
-const RoadmapLabel = styled.div`
-  position: absolute;
-  top: 100%;
-  transform: translateX(-50%);
-  text-align: center;
-  font-size: 0.8rem;
-  color: #2c3e50;
-`;
+            {stage.extracurricular_activities && (
+                <>
+                    <h3><FaUsers /> Extracurricular Activities</h3>
+                    <List>
+                        {stage.extracurricular_activities.map((activity, i) => (
+                            <ListItem key={i}>{activity}</ListItem>
+                        ))}
+                    </List>
+                </>
+            )}
 
-const EducationRoadmap = ({ stages }) => (
-    <RoadmapContainer>
-        <RoadmapLine />
-        {stages.map((stage, index) => (
-            <React.Fragment key={index}>
-                <RoadmapPoint style={{ left: `${index * 33.33}%` }} />
-                <RoadmapLabel style={{ left: `${index * 33.33}%` }}>{stage}</RoadmapLabel>
-            </React.Fragment>
-        ))}
-    </RoadmapContainer>
-);
+            {stage.test_preparation && (
+                <>
+                    <h3><FaBook /> Test Preparation</h3>
+                    <List>
+                        {stage.test_preparation.map((test, i) => (
+                            <ListItem key={i}>{test}</ListItem>
+                        ))}
+                    </List>
+                </>
+            )}
 
-// University Table Component
-const Table = styled.table`
-  width: 100%;
-  border-collapse: collapse;
-`;
+            {stage.top_universities && (
+                <>
+                    <h3><FaUniversity /> Top Universities</h3>
+                    <ResponsiveContainer width="100%" height={300}>
+                        <BarChart data={stage.top_universities}>
+                            <XAxis dataKey="name" />
+                            <YAxis />
+                            <Tooltip />
+                            <Bar dataKey="average_gpa" fill={colors.blue} />
+                            <Bar dataKey="admission_rate" fill={colors.green} />
+                        </BarChart>
+                    </ResponsiveContainer>
+                    <Table>
+                        <thead>
+                            <tr>
+                                <Th>University</Th>
+                                <Th>Avg. GPA</Th>
+                                <Th>SAT Range</Th>
+                                <Th>Admission Rate</Th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {stage.top_universities.map((uni, i) => (
+                                <tr key={i}>
+                                    <Td>{uni.name}</Td>
+                                    <Td>{uni.average_gpa}</Td>
+                                    <Td>{uni.sat_range}</Td>
+                                    <Td>{uni.admission_rate}</Td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </Table>
+                </>
+            )}
 
-const Th = styled.th`
-  background-color: #3498db;
-  color: white;
-  padding: 0.5rem;
-  text-align: left;
-`;
+            {stage.key_courses && (
+                <>
+                    <h3><FaGraduationCap /> Key Courses</h3>
+                    <InfoGraphic>
+                        {stage.key_courses.slice(0, 6).map((course, i) => (
+                            <InfoItem key={i} color={themeColors[i % themeColors.length]}>{course}</InfoItem>
+                        ))}
+                    </InfoGraphic>
+                </>
+            )}
 
-const Td = styled.td`
-  padding: 0.5rem;
-  border-bottom: 1px solid #ecf0f1;
-`;
+            {stage.experiences && (
+                <>
+                    <h3><FaFlask /> Experiences</h3>
+                    <List>
+                        {stage.experiences.map((exp, i) => (
+                            <ListItem key={i}>{exp}</ListItem>
+                        ))}
+                    </List>
+                </>
+            )}
+        </Section>
+    );
+};
 
-const UniversityTable = ({ universities }) => (
-    <Table>
-        <thead>
-            <tr>
-                <Th>University</Th>
-                <Th>Average GPA</Th>
-                <Th>SAT Range</Th>
-                <Th>Admission Rate (%)</Th>
-            </tr>
-        </thead>
-        <tbody>
-            {universities.map((uni, index) => (
-                <tr key={index}>
-                    <Td>{uni.name}</Td>
-                    <Td>{uni.average_gpa}</Td>
-                    <Td>{uni.sat_range}</Td>
-                    <Td>{uni.admission_rate}</Td>
-                </tr>
+const CareerProgressionSection = ({ progression }) => {
+    const themeColors = [colors.blue, colors.green, colors.purple, colors.red, colors.orange, colors.teal];
+
+    return (
+        <Section>
+            <SectionTitle><FaChartLine /> Career Progression</SectionTitle>
+            <Summary>
+                Your career path from entry-level to senior positions. Each stage brings new challenges and responsibilities.
+            </Summary>
+            {progression.map((level, index) => (
+                <div key={index}>
+                    <h3>{level.level}</h3>
+                    <ProgressBar>
+                        <Progress width={(index + 1) * (100 / progression.length)}>
+                            {level.years_experience}
+                        </Progress>
+                    </ProgressBar>
+                    <InfoGraphic>
+                        {level.positions.map((position, i) => (
+                            <InfoItem key={i} color={themeColors[i % themeColors.length]}>{position}</InfoItem>
+                        ))}
+                    </InfoGraphic>
+                </div>
             ))}
-        </tbody>
-    </Table>
-);
+        </Section>
+    );
+};
 
-// Skills Wheel Component
-const SkillsWheelContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-const SkillItem = styled.div`
-  background-color: ${props => props.color};
-  color: white;
-  padding: 1rem;
-  margin: 0.5rem;
-  border-radius: 8px;
-  text-align: center;
-  width: calc(33.33% - 1rem);
-`;
-
-const SkillsWheel = ({ skills }) => (
-    <SkillsWheelContainer>
-        {skills?.map((skill, index) => (
-            <SkillItem key={index} color={['#3498db', '#2ecc71', '#9b59b6', '#e74c3c', '#f39c12', '#1abc9c'][index % 6]}>
-                {skill}
-            </SkillItem>
-        ))}
-    </SkillsWheelContainer>
-);
-
-// Career Progression Ladder Component
-const LadderContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const LadderStep = styled.div`
-  background-color: #3498db;
-  color: white;
-  padding: 0.5rem 1rem;
-  margin-bottom: 0.5rem;
-  border-radius: 4px;
-  text-align: center;
-  width: 80%;
-`;
-
-const CareerProgressionLadder = ({ steps }) => (
-    <LadderContainer>
-        {steps.map((step, index) => (
-            <LadderStep key={index}>{step}</LadderStep>
-        ))}
-    </LadderContainer>
-);
-
-// Industry Connections Component
-const ConnectionsContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-const ConnectionItem = styled.div`
-  background-color: ${props => props.color};
-  color: white;
-  padding: 1rem;
-  margin: 0.5rem;
-  border-radius: 50%;
-  text-align: center;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const IndustryConnections = ({ connections }) => (
-    <ConnectionsContainer>
-        {connections.map((connection, index) => (
-            <ConnectionItem key={index} color={['#3498db', '#2ecc71', '#9b59b6', '#e74c3c', '#f39c12', '#1abc9c'][index % 6]}>
-                {connection}
-            </ConnectionItem>
-        ))}
-    </ConnectionsContainer>
-);
-
-// Key Courses Component
-const CoursesContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-const CourseItem = styled.div`
-  background-color: ${props => props.color};
-  color: white;
-  padding: 1rem;
-  margin: 0.5rem;
-  border-radius: 50%;
-  text-align: center;
-  width: 120px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const KeyCourses = ({ courses }) => (
-    <CoursesContainer>
-        {courses.map((course, index) => (
-            <CourseItem key={index} color={['#3498db', '#2ecc71', '#9b59b6', '#e74c3c', '#f39c12', '#1abc9c', '#34495e', '#d35400'][index % 8]}>
-                {course}
-            </CourseItem>
-        ))}
-    </CoursesContainer>
-);
-
-// Success Factors Component
-const FactorsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const FactorItem = styled.div`
-  background-color: ${props => props.color};
-  color: white;
-  padding: 0.5rem 1rem;
-  margin-bottom: 0.5rem;
-  border-radius: 4px;
-  text-align: center;
-  width: ${props => props.width};
-`;
-
-const SuccessFactors = ({ factors }) => (
-    <FactorsContainer>
-        {factors.map((factor, index) => (
-            <FactorItem
-                key={index}
-                color={['#3498db', '#2ecc71', '#9b59b6', '#e74c3c', '#f39c12'][index % 5]}
-                width={`${100 - index * 10}%`}
+const PieChartComponent = ({ data, colors }) => (
+    <ResponsiveContainer width="100%" height={300}>
+        <PieChart>
+            <Pie
+                data={data}
+                cx="50%"
+                cy="50%"
+                labelLine={false}
+                outerRadius={80}
+                fill="#8884d8"
+                dataKey="value"
             >
-                {factor}
-            </FactorItem>
-        ))}
-    </FactorsContainer>
-);
-
-// New component for displaying experiences
-const ExperienceList = styled.ul`
-list-style-type: none;
-padding-left: 0;
-`;
-
-const ExperienceItem = styled.li`
-margin-bottom: 0.5rem;
-padding: 0.5rem;
-background-color: #ecf0f1;
-border-radius: 4px;
-`;
-
-const Experiences = ({ experiences }) => (
-    <ExperienceList>
-        {experiences.map((experience, index) => (
-            <ExperienceItem key={index}>{experience}</ExperienceItem>
-        ))}
-    </ExperienceList>
-);
-
-// New component for continuous learning
-const LearningList = styled.ul`
-list-style-type: none;
-padding-left: 0;
-`;
-
-const LearningItem = styled.li`
-margin-bottom: 0.5rem;
-padding: 0.5rem;
-background-color: #e8f6f3;
-border-radius: 4px;
-`;
-
-const ContinuousLearning = ({ learningItems }) => (
-    <LearningList>
-        {learningItems.map((item, index) => (
-            <LearningItem key={index}>{item}</LearningItem>
-        ))}
-    </LearningList>
+                {data.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
+                ))}
+            </Pie>
+            <Tooltip />
+        </PieChart>
+    </ResponsiveContainer>
 );
 
 const CareerReport = () => {
@@ -382,120 +370,72 @@ const CareerReport = () => {
         return <div>Career information not found.</div>;
     }
 
+    const skillsData = careerInfo.key_skills?.map(skill => ({ name: skill, value: 1 })) || [];
+    const skillsColors = [colors.blue, colors.green, colors.purple, colors.red, colors.orange, colors.teal];
+
     return (
         <ReportContainer>
             <BackLink to="/"><FaArrowLeft /> Back to Home</BackLink>
-            <Title>{careerInfo.career_path}</Title>
+            <Title>{careerInfo.career_path} Career Guide</Title>
 
             <Section>
                 <SectionTitle>Career Overview</SectionTitle>
-                <TextSection>
-                    <SectionDescription>
-                        A career as a {careerInfo.career_path} offers a unique blend of {careerInfo.key_skills?.slice(0, 3).join(", ")}, and more.
-                        This path is ideal for those passionate about {careerInfo.career_path.toLowerCase()} and its impact on society.
-                    </SectionDescription>
-                </TextSection>
+                <Summary>
+                    A career as a {careerInfo.career_path} offers a unique blend of challenges and opportunities. This timeline gives you an overview of what to expect at different stages of your career.
+                </Summary>
+                <CareerTimeline stages={careerInfo.education_stages.concat({ stage: "Professional Career" })} />
             </Section>
 
             <Section>
-                <SectionTitle>Career Timeline</SectionTitle>
-                <CareerTimeline stages={careerInfo.education_stages} />
-                <TextSection>
-                    <SectionDescription>
-                        The journey to becoming a {careerInfo.career_path} involves several key stages, each building upon the last to develop the necessary skills and knowledge.
-                    </SectionDescription>
-                </TextSection>
+                <SectionTitle><FaGraduationCap /> Education Journey</SectionTitle>
+                <Summary>
+                    Your path to becoming a {careerInfo.career_path} involves several key educational stages. Each stage builds upon the last, developing the skills and knowledge you'll need in your career.
+                </Summary>
+                {careerInfo.education_stages.map((stage, index) => (
+                    <EducationStage key={index} stage={stage} index={index} />
+                ))}
+            </Section>
+
+            <CareerProgressionSection progression={careerInfo.career_progression} />
+
+            <Section>
+                <SectionTitle><FaBriefcase /> Potential Employers</SectionTitle>
+                <Summary>
+                    {careerInfo.career_path}s can find opportunities in various sectors. These potential employers represent some of the key players in the industry.
+                </Summary>
+                <InfoGraphic>
+                    {careerInfo.potential_employers?.map((employer, index) => (
+                        <InfoItem key={index} color={skillsColors[index % skillsColors.length]}>{employer}</InfoItem>
+                    ))}
+                </InfoGraphic>
             </Section>
 
             <Section>
-                <SectionTitle>Education Roadmap</SectionTitle>
-                <EducationRoadmap stages={['High School', 'Bachelor\'s Degree', 'Master\'s Degree', 'Board Certification']} />
-                <TextSection>
-                    <SectionDescription>
-                        Educational milestones play a crucial role in preparing for a career as a {careerInfo.career_path}. Each stage provides essential knowledge and skills necessary for success in this field.
-                    </SectionDescription>
-                </TextSection>
+                <SectionTitle><FaBook /> Continuous Learning</SectionTitle>
+                <Summary>
+                    The field of {careerInfo.career_path.toLowerCase()} is constantly evolving. Staying updated with the latest developments is crucial for long-term success.
+                </Summary>
+                <List>
+                    {careerInfo.continuous_learning?.map((item, index) => (
+                        <ListItem key={index}>{item}</ListItem>
+                    ))}
+                </List>
             </Section>
 
-            <Section>
-                <SectionTitle>Top Universities</SectionTitle>
-                <UniversityTable universities={careerInfo.education_stages[1].top_universities} />
-                <TextSection>
-                    <SectionDescription>
-                        These universities are renowned for their excellent programs in fields related to {careerInfo.career_path}. They offer rigorous curricula and valuable networking opportunities.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
-
-            <Section>
-                <SectionTitle>Key Skills</SectionTitle>
-                <SkillsWheel skills={careerInfo.key_skills} />
-                <TextSection>
-                    <SectionDescription>
-                        Success as a {careerInfo.career_path} requires a diverse set of skills. These key competencies will help you excel in your career and adapt to the evolving landscape of the field.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
-
-            <Section>
-                <SectionTitle>Career Progression</SectionTitle>
-                <CareerProgressionLadder steps={careerInfo.career_progression.map(cp => cp.level)} />
-                <TextSection>
-                    <SectionDescription>
-                        As you gain experience and expertise, you can progress through various roles in your career as a {careerInfo.career_path}. Each level brings new challenges and responsibilities.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
-
-            <Section>
-                <SectionTitle>Industry Connections</SectionTitle>
-                <IndustryConnections connections={careerInfo.potential_employers} />
-                <TextSection>
-                    <SectionDescription>
-                        {careerInfo.career_path}s can find opportunities in various sectors. These potential employers represent some of the key players in the industry.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
-
-            <Section>
-                <SectionTitle>Key Courses</SectionTitle>
-                <KeyCourses courses={careerInfo.education_stages[1].key_courses.slice(0, 8)} />
-                <TextSection>
-                    <SectionDescription>
-                        These courses form the foundation of your education as a {careerInfo.career_path}. They cover essential topics and provide the knowledge base you'll need in your career.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
-
-            <Section>
-                <SectionTitle>Experiences</SectionTitle>
-                <Experiences experiences={careerInfo.education_stages[1].experiences} />
-                <TextSection>
-                    <SectionDescription>
-                        Gaining practical experience is crucial for aspiring {careerInfo.career_path}s. These opportunities allow you to apply your knowledge in real-world settings and build your professional network.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
-
-            <Section>
-                <SectionTitle>Continuous Learning</SectionTitle>
-                <ContinuousLearning learningItems={careerInfo.continuous_learning} />
-                <TextSection>
-                    <SectionDescription>
-                        The field of {careerInfo.career_path.toLowerCase()} is constantly evolving. Staying updated with the latest developments and continuously improving your skills is essential for long-term success.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
-
-            <Section>
-                <SectionTitle>Success Factors</SectionTitle>
-                <SuccessFactors factors={careerInfo.success_factors || ['Communication', 'Empathy', 'Technical Knowledge', 'Problem Solving', 'Adaptability']} />
-                <TextSection>
-                    <SectionDescription>
-                        While technical skills are important, these success factors can set you apart in your career as a {careerInfo.career_path}. They contribute to your overall effectiveness and career growth.
-                    </SectionDescription>
-                </TextSection>
-            </Section>
+            {careerInfo.key_skills && (
+                <Section>
+                    <SectionTitle><FaUserTie /> Key Skills</SectionTitle>
+                    <Summary>
+                        These skills are crucial for success as a {careerInfo.career_path}. Developing and honing these skills will set you apart in your career.
+                    </Summary>
+                    <PieChartComponent data={skillsData} colors={skillsColors} />
+                    <InfoGraphic>
+                        {careerInfo.key_skills.map((skill, index) => (
+                            <InfoItem key={index} color={skillsColors[index % skillsColors.length]}>{skill}</InfoItem>
+                        ))}
+                    </InfoGraphic>
+                </Section>
+            )}
         </ReportContainer>
     );
 };
