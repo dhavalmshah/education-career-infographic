@@ -255,15 +255,6 @@ const EducationStage = ({ stage, index }) => {
             {stage.top_universities && (
                 <>
                     <h3><FaUniversity /> Top Universities</h3>
-                    <ResponsiveContainer width="100%" height={300}>
-                        <BarChart data={stage.top_universities}>
-                            <XAxis dataKey="name" />
-                            <YAxis />
-                            <Tooltip />
-                            <Bar dataKey="average_gpa" fill={colors.blue} />
-                            <Bar dataKey="admission_rate" fill={colors.green} />
-                        </BarChart>
-                    </ResponsiveContainer>
                     <Table>
                         <thead>
                             <tr>
