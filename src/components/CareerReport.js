@@ -89,7 +89,7 @@ const CareerTimeline = ({ stages }) => (
             <TimelineItem key={index} color={['#3498db', '#2ecc71', '#9b59b6', '#e74c3c'][index]}>
                 <TimelineTitle>{stage.stage}</TimelineTitle>
                 <TimelineList>
-                    {stage.key_points.map((point, i) => (
+                    {stage.key_points?.map((point, i) => (
                         <li key={i}>{point}</li>
                     ))}
                 </TimelineList>
@@ -205,7 +205,7 @@ const SkillItem = styled.div`
 
 const SkillsWheel = ({ skills }) => (
     <SkillsWheelContainer>
-        {skills.map((skill, index) => (
+        {skills?.map((skill, index) => (
             <SkillItem key={index} color={['#3498db', '#2ecc71', '#9b59b6', '#e74c3c', '#f39c12', '#1abc9c'][index % 6]}>
                 {skill}
             </SkillItem>
@@ -391,7 +391,7 @@ const CareerReport = () => {
                 <SectionTitle>Career Overview</SectionTitle>
                 <TextSection>
                     <SectionDescription>
-                        A career as a {careerInfo.career_path} offers a unique blend of {careerInfo.key_skills.slice(0, 3).join(", ")}, and more.
+                        A career as a {careerInfo.career_path} offers a unique blend of {careerInfo.key_skills?.slice(0, 3).join(", ")}, and more.
                         This path is ideal for those passionate about {careerInfo.career_path.toLowerCase()} and its impact on society.
                     </SectionDescription>
                 </TextSection>
