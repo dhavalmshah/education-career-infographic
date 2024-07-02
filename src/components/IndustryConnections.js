@@ -51,7 +51,7 @@ function IndustryConnections({ data = connections }) {
     return (
         <ConnectionsContainer>
             <CentralNode>Space Engineer</CentralNode>
-            {connections.map((connection, index) => (
+            {data.map((connection, index) => (
                 <Connection
                     key={index}
                     color={connection.color}

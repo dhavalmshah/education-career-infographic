@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { FaRocket, FaLeaf, FaChartLine, FaBalanceScale } from 'react-icons/fa';
+import { FaRocket, FaLeaf, FaChartLine, FaBalanceScale, FaRobot, FaLock, FaDna, FaUserMd, FaSeedling, FaAtom, FaSpaceShuttle } from 'react-icons/fa';
 
 const HomeContainer = styled.div`
   background-color: #f0f4f8;
@@ -68,57 +68,106 @@ const CareerDescription = styled.p`
 `;
 
 const careers = [
-    {
-        path: '/space-engineer',
-        title: 'Space Engineer',
-        description: 'Design the future of space exploration',
-        icon: FaRocket,
-        color: '#3498db'
-    },
-    {
-        path: '/green-energy-specialist',
-        title: 'Green Energy Specialist',
-        description: 'Power the world sustainably',
-        icon: FaLeaf,
-        color: '#2ecc71'
-    },
-    {
-        path: '/wall-street-analyst',
-        title: 'Wall Street Analyst',
-        description: 'Navigate the world of high finance',
-        icon: FaChartLine,
-        color: '#e74c3c'
-    },
-    {
-        path: '/corporate-lawyer',
-        title: 'Corporate Lawyer',
-        description: 'Shape the deals that define business',
-        icon: FaBalanceScale,
-        color: '#f39c12'
-    }
+  {
+    path: '/space-engineer',
+    title: 'Space Engineer',
+    description: 'Design the future of space exploration',
+    icon: FaRocket,
+    color: '#3498db'
+  },
+  {
+    path: '/green-energy-specialist',
+    title: 'Green Energy Specialist',
+    description: 'Power the world sustainably',
+    icon: FaLeaf,
+    color: '#2ecc71'
+  },
+  {
+    path: '/wall-street-analyst',
+    title: 'Wall Street Analyst',
+    description: 'Navigate the world of high finance',
+    icon: FaChartLine,
+    color: '#e74c3c'
+  },
+  {
+    path: '/corporate-lawyer',
+    title: 'Corporate Lawyer',
+    description: 'Shape the deals that define business',
+    icon: FaBalanceScale,
+    color: '#f39c12'
+  },
+  {
+    path: '/ai-engineer',
+    title: 'AI Engineer',
+    description: 'Build intelligent systems of the future',
+    icon: FaRobot,
+    color: '#9b59b6'
+  },
+  {
+    path: '/data-privacy-officer',
+    title: 'Data Privacy Officer',
+    description: 'Protect digital rights and information',
+    icon: FaLock,
+    color: '#34495e'
+  },
+  {
+    path: '/genetic-counselor',
+    title: 'Genetic Counselor',
+    description: 'Guide patients through genomic medicine',
+    icon: FaDna,
+    color: '#1abc9c'
+  },
+  {
+    path: '/robotics-surgeon',
+    title: 'Robotics Surgeon',
+    description: 'Perform precise surgeries with advanced technology',
+    icon: FaUserMd,
+    color: '#e67e22'
+  },
+  {
+    path: '/vertical-farming-specialist',
+    title: 'Vertical Farming Specialist',
+    description: 'Revolutionize urban agriculture',
+    icon: FaSeedling,
+    color: '#27ae60'
+  },
+  {
+    path: '/quantum-computing-researcher',
+    title: 'Quantum Computing Researcher',
+    description: 'Unlock the power of quantum mechanics',
+    icon: FaAtom,
+    color: '#8e44ad'
+  },
+  {
+    path: '/space-tourism-coordinator',
+    title: 'Space Tourism Coordinator',
+    description: 'Organize out-of-this-world vacations',
+    icon: FaSpaceShuttle,
+    color: '#2c3e50'
+  }
 ];
 
 function HomePage() {
-    return (
-        <HomeContainer>
-            <Title>Explore Your Future Career</Title>
-            <Subtitle>
-                Discover the path to your dream career. Explore detailed infographics
-                and insights into various high-impact professions.
-            </Subtitle>
-            <CareerGrid>
-                {careers.map((career, index) => (
-                    <CareerCard key={index} to={career.path}>
-                        <IconWrapper color={career.color}>
-                            <career.icon />
-                        </IconWrapper>
-                        <CareerTitle>{career.title}</CareerTitle>
-                        <CareerDescription>{career.description}</CareerDescription>
-                    </CareerCard>
-                ))}
-            </CareerGrid>
-        </HomeContainer>
-    );
+  return (
+    <HomeContainer>
+      <Title>Explore Your Future Career</Title>
+      <Subtitle>
+        Discover the path to your dream career. Explore detailed infographics
+        and insights into various high-impact professions of the future.
+      </Subtitle>
+      <CareerGrid>
+        {careers.map((career, index) => (
+          <CareerCard key={index} to={career.path}>
+            <IconWrapper color={career.color}>
+              <career.icon />
+            </IconWrapper>
+            <CareerTitle>{career.title}</CareerTitle>
+            <CareerDescription>{career.description}</CareerDescription>
+          </CareerCard>
+        ))}
+      </CareerGrid>
+    </HomeContainer>
+  );
 }
 
 export default HomePage;

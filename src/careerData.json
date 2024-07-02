@@ -413,5 +413,492 @@
       { "name": "Attention to Detail", "width": 500, "color": "#f39c12" },
       { "name": "Networking", "width": 600, "color": "#9b59b6" }
     ]
+  },
+  "aiEngineer": {
+    "title": "AI Engineer Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": ["Advanced Math", "Coding Club", "AI Competitions"]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Computer Science Degree",
+          "Machine Learning Projects",
+          "AI Research Internship"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "Master's or PhD in AI/ML",
+          "Thesis on Deep Learning",
+          "Industry Collaboration"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "AI Engineer at Tech Giant",
+          "Senior AI Researcher",
+          "AI Ethics Board Member"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Computer Science", "icon": "FaLaptopCode" },
+      { "name": "Master's/PhD in AI/ML", "icon": "FaRobot" },
+      { "name": "Continuous Learning", "icon": "FaBrain" }
+    ],
+    "skillsWheel": [
+      { "name": "Machine Learning", "level": 90, "color": "#3498db" },
+      { "name": "Deep Learning", "level": 85, "color": "#2ecc71" },
+      { "name": "Python Programming", "level": 95, "color": "#e74c3c" },
+      { "name": "Data Analysis", "level": 80, "color": "#f39c12" },
+      { "name": "AI Ethics", "level": 75, "color": "#9b59b6" },
+      { "name": "Research Skills", "level": 85, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Junior AI Engineer",
+      "Senior AI Engineer",
+      "AI Research Scientist",
+      "AI Project Lead",
+      "Chief AI Officer"
+    ],
+    "industryConnections": [
+      { "name": "Google AI", "color": "#e74c3c" },
+      { "name": "OpenAI", "color": "#2ecc71" },
+      { "name": "DeepMind", "color": "#3498db" },
+      { "name": "Microsoft Research", "color": "#f39c12" },
+      { "name": "IBM Watson", "color": "#9b59b6" },
+      { "name": "Amazon AI", "color": "#1abc9c" }
+    ]
+  },
+  "dataPrivacyOfficer": {
+    "title": "Data Privacy Officer Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": ["Ethics Club", "Cybersecurity Workshops", "Debate Team"]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Law or IT Security Degree",
+          "Privacy Policy Internship",
+          "Data Protection Certification"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "Master's in Cybersecurity Law",
+          "GDPR Specialization",
+          "Privacy Impact Assessment Project"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Privacy Analyst",
+          "Data Protection Manager",
+          "Chief Privacy Officer"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Law or IT Security", "icon": "FaUserShield" },
+      { "name": "Master's in Cybersecurity Law", "icon": "FaUserLock" },
+      { "name": "CIPP Certification", "icon": "FaCertificate" }
+    ],
+    "skillsWheel": [
+      { "name": "Data Protection Laws", "level": 90, "color": "#3498db" },
+      { "name": "Risk Assessment", "level": 85, "color": "#2ecc71" },
+      { "name": "Policy Development", "level": 80, "color": "#e74c3c" },
+      { "name": "Ethical Decision Making", "level": 85, "color": "#f39c12" },
+      { "name": "Cybersecurity Basics", "level": 75, "color": "#9b59b6" },
+      { "name": "Stakeholder Management", "level": 80, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Privacy Analyst",
+      "Data Protection Specialist",
+      "Privacy Program Manager",
+      "Data Protection Officer",
+      "Chief Privacy Officer"
+    ],
+    "industryConnections": [
+      {
+        "name": "International Association of Privacy Professionals",
+        "color": "#e74c3c"
+      },
+      { "name": "EU Data Protection Board", "color": "#2ecc71" },
+      { "name": "Privacy Shield Framework", "color": "#3498db" },
+      { "name": "National Cyber Security Centre", "color": "#f39c12" },
+      { "name": "Electronic Frontier Foundation", "color": "#9b59b6" },
+      { "name": "Future of Privacy Forum", "color": "#1abc9c" }
+    ]
+  },
+  "geneticCounselor": {
+    "title": "Genetic Counselor Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": ["AP Biology", "Genetics Club", "Hospital Volunteering"]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Biology or Genetics Degree",
+          "Genetic Research Internship",
+          "Psychology Courses"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "Master's in Genetic Counseling",
+          "Clinical Rotations",
+          "Thesis on Genetic Disorders"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Certified Genetic Counselor",
+          "Specialization (e.g., Prenatal, Cancer)",
+          "Research or Academic Position"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Biology/Genetics", "icon": "FaDna" },
+      { "name": "Master's in Genetic Counseling", "icon": "FaUserMd" },
+      { "name": "Board Certification", "icon": "FaCertificate" }
+    ],
+    "skillsWheel": [
+      { "name": "Genetics Knowledge", "level": 90, "color": "#3498db" },
+      { "name": "Counseling Skills", "level": 85, "color": "#2ecc71" },
+      { "name": "Medical Ethics", "level": 80, "color": "#e74c3c" },
+      { "name": "Risk Assessment", "level": 85, "color": "#f39c12" },
+      { "name": "Patient Education", "level": 90, "color": "#9b59b6" },
+      { "name": "Research Skills", "level": 75, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Genetic Counseling Intern",
+      "Certified Genetic Counselor",
+      "Senior Genetic Counselor",
+      "Specialty Clinic Director",
+      "Genetic Services Director"
+    ],
+    "industryConnections": [
+      { "name": "National Society of Genetic Counselors", "color": "#e74c3c" },
+      { "name": "American Board of Genetic Counseling", "color": "#2ecc71" },
+      { "name": "Hospital Genetics Departments", "color": "#3498db" },
+      { "name": "Biotechnology Companies", "color": "#f39c12" },
+      { "name": "Research Institutions", "color": "#9b59b6" },
+      { "name": "Genetic Testing Laboratories", "color": "#1abc9c" }
+    ]
+  },
+  "roboticsSurgeon": {
+    "title": "Robotics Surgeon Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": [
+          "Advanced Biology",
+          "Robotics Club",
+          "Shadowing Surgeons"
+        ]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Pre-Med Program",
+          "Robotics Engineering Courses",
+          "Research Assistant in Medical Robotics"
+        ]
+      },
+      {
+        "stage": "Medical School",
+        "color": "#9b59b6",
+        "milestones": [
+          "MD Program",
+          "Surgical Rotations",
+          "Robotics Surgery Electives"
+        ]
+      },
+      {
+        "stage": "Residency & Fellowship",
+        "color": "#e74c3c",
+        "milestones": [
+          "Surgical Residency",
+          "Robotics Surgery Fellowship",
+          "Board Certification"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's Degree (Pre-Med)", "icon": "FaUserMd" },
+      { "name": "Medical Degree (MD)", "icon": "FaHospital" },
+      { "name": "Residency & Fellowship", "icon": "FaRobot" }
+    ],
+    "skillsWheel": [
+      { "name": "Surgical Skills", "level": 90, "color": "#3498db" },
+      { "name": "Robotics Operation", "level": 85, "color": "#2ecc71" },
+      { "name": "Medical Knowledge", "level": 90, "color": "#e74c3c" },
+      { "name": "Hand-Eye Coordination", "level": 95, "color": "#f39c12" },
+      { "name": "Problem-Solving", "level": 85, "color": "#9b59b6" },
+      { "name": "Teamwork", "level": 80, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Medical Student",
+      "Surgical Resident",
+      "Robotics Surgery Fellow",
+      "Attending Robotics Surgeon",
+      "Chief of Robotics Surgery"
+    ],
+    "industryConnections": [
+      { "name": "Intuitive Surgical", "color": "#e74c3c" },
+      { "name": "Stryker", "color": "#2ecc71" },
+      { "name": "Medtronic", "color": "#3498db" },
+      { "name": "Johnson & Johnson", "color": "#f39c12" },
+      { "name": "Hospitals with Robotics Programs", "color": "#9b59b6" },
+      { "name": "Medical Device Companies", "color": "#1abc9c" }
+    ]
+  },
+  "verticalFarmingSpecialist": {
+    "title": "Vertical Farming Specialist Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": [
+          "AP Environmental Science",
+          "Hydroponics Club",
+          "Urban Gardening Project"
+        ]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Agricultural Science or Horticulture Degree",
+          "Vertical Farming Internship",
+          "Sustainable Agriculture Courses"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "Master's in Urban Agriculture",
+          "Vertical Farming Research Project",
+          "Agtech Innovation Workshop"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Vertical Farm Technician",
+          "Urban Agriculture Consultant",
+          "Vertical Farming Systems Designer"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Agricultural Science", "icon": "FaSeedling" },
+      { "name": "Master's in Urban Agriculture", "icon": "FaWarehouse" },
+      {
+        "name": "Certifications in Hydroponics/Aeroponics",
+        "icon": "FaCertificate"
+      }
+    ],
+    "skillsWheel": [
+      { "name": "Plant Science", "level": 90, "color": "#3498db" },
+      { "name": "Hydroponic Systems", "level": 85, "color": "#2ecc71" },
+      { "name": "Climate Control", "level": 80, "color": "#e74c3c" },
+      { "name": "Data Analysis", "level": 75, "color": "#f39c12" },
+      { "name": "Sustainable Practices", "level": 85, "color": "#9b59b6" },
+      { "name": "Automation Technology", "level": 80, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Vertical Farm Technician",
+      "Urban Agriculture Specialist",
+      "Vertical Farming Systems Designer",
+      "Urban Agriculture Project Manager",
+      "Chief Innovation Officer in Agtech"
+    ],
+    "industryConnections": [
+      { "name": "AeroFarms", "color": "#e74c3c" },
+      { "name": "Plenty", "color": "#2ecc71" },
+      { "name": "Bowery Farming", "color": "#3498db" },
+      { "name": "Association for Vertical Farming", "color": "#f39c12" },
+      { "name": "Urban Agriculture Research Institutes", "color": "#9b59b6" },
+      { "name": "Sustainable Agriculture Organizations", "color": "#1abc9c" }
+    ]
+  },
+  "quantumComputingResearcher": {
+    "title": "Quantum Computing Researcher Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": [
+          "Advanced Physics",
+          "Math Olympiad",
+          "Quantum Computing Workshop"
+        ]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Physics or Computer Science Degree",
+          "Quantum Mechanics Courses",
+          "Research Internship in Quantum Lab"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "PhD in Quantum Computing",
+          "Quantum Algorithm Research",
+          "Quantum Hardware Development"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Postdoctoral Researcher",
+          "Quantum Computing Scientist",
+          "Lead Quantum Researcher"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Physics/Computer Science", "icon": "FaAtom" },
+      { "name": "PhD in Quantum Computing", "icon": "FaMicroscope" },
+      { "name": "Postdoctoral Research", "icon": "FaChalkboardTeacher" }
+    ],
+    "skillsWheel": [
+      { "name": "Quantum Mechanics", "level": 90, "color": "#3498db" },
+      { "name": "Linear Algebra", "level": 85, "color": "#2ecc71" },
+      { "name": "Quantum Algorithms", "level": 85, "color": "#e74c3c" },
+      { "name": "Programming (Python, Q#)", "level": 80, "color": "#f39c12" },
+      { "name": "Research Methodology", "level": 85, "color": "#9b59b6" },
+      { "name": "Scientific Writing", "level": 75, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Graduate Research Assistant",
+      "Postdoctoral Researcher",
+      "Quantum Computing Scientist",
+      "Senior Quantum Researcher",
+      "Quantum Computing Research Director"
+    ],
+    "industryConnections": [
+      { "name": "IBM Quantum", "color": "#e74c3c" },
+      { "name": "Google Quantum AI", "color": "#2ecc71" },
+      { "name": "Microsoft Quantum", "color": "#3498db" },
+      { "name": "D-Wave Systems", "color": "#f39c12" },
+      { "name": "Quantum Economic Development Consortium", "color": "#9b59b6" },
+      { "name": "National Quantum Initiative", "color": "#1abc9c" }
+    ]
+  },
+  "spaceToursimCoordinator": {
+    "title": "Space Tourism Coordinator Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": ["Astronomy Club", "Advanced Physics", "Space Camp"]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Aerospace Engineering or Tourism Management Degree",
+          "Space Industry Internship",
+          "Zero-G Flight Experience"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "Master's in Space Studies or Hospitality Management",
+          "Space Tourism Marketing Project",
+          "Astronaut Training Observation"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Space Tourism Program Coordinator",
+          "Passenger Experience Designer",
+          "Director of Space Expeditions"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      {
+        "name": "Bachelor's in Aerospace or Tourism",
+        "icon": "FaSpaceShuttle"
+      },
+      { "name": "Master's in Space Studies", "icon": "FaStar" },
+      { "name": "Space Tourism Certification", "icon": "FaCertificate" }
+    ],
+    "skillsWheel": [
+      { "name": "Space Systems Knowledge", "level": 85, "color": "#3498db" },
+      { "name": "Customer Service", "level": 90, "color": "#2ecc71" },
+      { "name": "Risk Management", "level": 85, "color": "#e74c3c" },
+      { "name": "Marketing", "level": 80, "color": "#f39c12" },
+      { "name": "Emergency Procedures", "level": 85, "color": "#9b59b6" },
+      {
+        "name": "Cross-cultural Communication",
+        "level": 80,
+        "color": "#1abc9c"
+      }
+    ],
+    "careerLadder": [
+      "Space Tourism Trainee",
+      "Space Flight Coordinator",
+      "Senior Space Tourism Specialist",
+      "Space Experience Designer",
+      "Director of Space Tourism Operations"
+    ],
+    "industryConnections": [
+      { "name": "Virgin Galactic", "color": "#e74c3c" },
+      { "name": "Blue Origin", "color": "#2ecc71" },
+      { "name": "SpaceX", "color": "#3498db" },
+      { "name": "Space Adventures", "color": "#f39c12" },
+      { "name": "Orbital Assembly Corporation", "color": "#9b59b6" },
+      { "name": "Space Tourism Society", "color": "#1abc9c" }
+    ]
   }
 }
