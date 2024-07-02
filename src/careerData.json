@@ -1,0 +1,417 @@
+{
+  "spaceEngineer": {
+    "title": "Space Engineer Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": ["AP Physics", "Robotics Club", "Space Camp"]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Aerospace Engineering Degree",
+          "NASA Internship",
+          "Satellite Design Project"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "Master's in Space Systems",
+          "Thesis on Propulsion",
+          "SpaceX Internship"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Junior Engineer at NASA",
+          "Senior Engineer at Blue Origin",
+          "Project Lead at SpaceX"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Aerospace Engineering", "icon": "FaBook" },
+      { "name": "Master's in Space Systems", "icon": "FaUserGraduate" },
+      { "name": "Internships & Projects", "icon": "FaRocket" }
+    ],
+    "universityComparison": [
+      { "name": "MIT", "gpa": 4.17, "sat": "1510-1570", "admissionRate": 4 },
+      {
+        "name": "Caltech",
+        "gpa": 4.19,
+        "sat": "1530-1580",
+        "admissionRate": 6
+      },
+      {
+        "name": "Stanford",
+        "gpa": 3.96,
+        "sat": "1440-1570",
+        "admissionRate": 4
+      },
+      {
+        "name": "Georgia Tech",
+        "gpa": 4.07,
+        "sat": "1370-1530",
+        "admissionRate": 21
+      }
+    ],
+    "skillsWheel": [
+      { "name": "Mathematics", "level": 90, "color": "#3498db" },
+      { "name": "Physics", "level": 85, "color": "#2ecc71" },
+      { "name": "Computer Science", "level": 80, "color": "#e74c3c" },
+      { "name": "Engineering", "level": 95, "color": "#f39c12" },
+      { "name": "Design Software", "level": 75, "color": "#9b59b6" },
+      { "name": "Communication", "level": 70, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Entry-Level Engineer",
+      "Senior Engineer",
+      "Lead Engineer",
+      "Project Manager",
+      "Director of Engineering"
+    ],
+    "industryConnections": [
+      { "name": "NASA", "color": "#e74c3c" },
+      { "name": "SpaceX", "color": "#2ecc71" },
+      { "name": "Blue Origin", "color": "#3498db" },
+      { "name": "Boeing", "color": "#f39c12" },
+      { "name": "Lockheed Martin", "color": "#9b59b6" },
+      { "name": "Virgin Galactic", "color": "#1abc9c" }
+    ],
+    "courseBubbleChart": [
+      { "name": "Orbital Mechanics", "size": 120, "color": "#3498db" },
+      { "name": "Spacecraft Design", "size": 150, "color": "#2ecc71" },
+      { "name": "Propulsion Systems", "size": 130, "color": "#e74c3c" },
+      { "name": "Space Materials", "size": 100, "color": "#f39c12" },
+      { "name": "Astronautics", "size": 110, "color": "#9b59b6" },
+      { "name": "Space Systems", "size": 140, "color": "#1abc9c" }
+    ],
+    "successFactorsPyramid": [
+      { "name": "Innovation", "width": 200, "color": "#3498db" },
+      { "name": "Technical Expertise", "width": 300, "color": "#2ecc71" },
+      { "name": "Problem-Solving", "width": 400, "color": "#e74c3c" },
+      { "name": "Teamwork", "width": 500, "color": "#f39c12" },
+      { "name": "STEM Foundation", "width": 600, "color": "#9b59b6" }
+    ]
+  },
+  "greenEnergySpecialist": {
+    "title": "Green Energy Specialist Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": [
+          "AP Environmental Science",
+          "Eco Club",
+          "Solar Car Competition"
+        ]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Environmental Engineering Degree",
+          "Internship at Wind Farm",
+          "Sustainable Energy Project"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "Master's in Renewable Energy",
+          "Thesis on Smart Grids",
+          "Research on Energy Storage"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Junior Engineer at Solar Company",
+          "Project Manager at Wind Energy Firm",
+          "Head of Sustainability at Tech Giant"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Environmental Engineering", "icon": "FaBook" },
+      { "name": "Master's in Renewable Energy", "icon": "FaUserGraduate" },
+      { "name": "Certifications & Projects", "icon": "FaLeaf" }
+    ],
+    "universityComparison": [
+      {
+        "name": "Stanford",
+        "gpa": 3.96,
+        "sat": "1440-1570",
+        "admissionRate": 4
+      },
+      {
+        "name": "UC Berkeley",
+        "gpa": 3.89,
+        "sat": "1330-1530",
+        "admissionRate": 16
+      },
+      { "name": "MIT", "gpa": 4.17, "sat": "1510-1570", "admissionRate": 4 },
+      { "name": "TU Delft", "gpa": 3.8, "sat": "N/A", "admissionRate": 30 }
+    ],
+    "skillsWheel": [
+      { "name": "Renewable Technologies", "level": 90, "color": "#3498db" },
+      { "name": "Environmental Science", "level": 85, "color": "#2ecc71" },
+      { "name": "Energy Systems", "level": 80, "color": "#e74c3c" },
+      { "name": "Project Management", "level": 75, "color": "#f39c12" },
+      { "name": "Data Analysis", "level": 70, "color": "#9b59b6" },
+      { "name": "Sustainability Planning", "level": 85, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Junior Environmental Engineer",
+      "Renewable Energy Specialist",
+      "Project Manager",
+      "Sustainability Consultant",
+      "Chief Sustainability Officer"
+    ],
+    "industryConnections": [
+      { "name": "Tesla Energy", "color": "#e74c3c" },
+      { "name": "Vestas Wind Systems", "color": "#2ecc71" },
+      { "name": "First Solar", "color": "#3498db" },
+      { "name": "Siemens Gamesa", "color": "#f39c12" },
+      { "name": "Orsted", "color": "#9b59b6" },
+      { "name": "GE Renewable Energy", "color": "#1abc9c" }
+    ],
+    "courseBubbleChart": [
+      { "name": "Renewable Energy Systems", "size": 150, "color": "#3498db" },
+      {
+        "name": "Environmental Impact Assessment",
+        "size": 130,
+        "color": "#2ecc71"
+      },
+      { "name": "Smart Grid Technology", "size": 120, "color": "#e74c3c" },
+      { "name": "Sustainable Materials", "size": 100, "color": "#f39c12" },
+      { "name": "Energy Policy", "size": 110, "color": "#9b59b6" },
+      { "name": "Climate Change Science", "size": 140, "color": "#1abc9c" }
+    ],
+    "successFactorsPyramid": [
+      { "name": "Innovation", "width": 200, "color": "#3498db" },
+      { "name": "Environmental Awareness", "width": 300, "color": "#2ecc71" },
+      { "name": "Technical Skills", "width": 400, "color": "#e74c3c" },
+      { "name": "Project Management", "width": 500, "color": "#f39c12" },
+      {
+        "name": "Interdisciplinary Knowledge",
+        "width": 600,
+        "color": "#9b59b6"
+      }
+    ]
+  },
+  "wallStreetAnalyst": {
+    "title": "Wall Street Analyst Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": ["AP Economics", "Math Club", "Stock Market Simulation"]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Finance or Economics Degree",
+          "Internship at Investment Bank",
+          "Bloomberg Certification"
+        ]
+      },
+      {
+        "stage": "Graduate School",
+        "color": "#9b59b6",
+        "milestones": [
+          "MBA or Master's in Finance",
+          "CFA Level 1",
+          "Summer Associate at Hedge Fund"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Junior Analyst at Investment Bank",
+          "Senior Analyst",
+          "Vice President of Research"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's in Finance/Economics", "icon": "FaBook" },
+      { "name": "MBA/Master's in Finance", "icon": "FaUserGraduate" },
+      { "name": "CFA Certification", "icon": "FaChartLine" }
+    ],
+    "universityComparison": [
+      {
+        "name": "Harvard",
+        "gpa": 4.18,
+        "sat": "1460-1580",
+        "admissionRate": 5
+      },
+      {
+        "name": "UPenn (Wharton)",
+        "gpa": 3.9,
+        "sat": "1460-1550",
+        "admissionRate": 8
+      },
+      {
+        "name": "NYU (Stern)",
+        "gpa": 3.89,
+        "sat": "1350-1530",
+        "admissionRate": 16
+      },
+      {
+        "name": "Columbia",
+        "gpa": 4.12,
+        "sat": "1450-1560",
+        "admissionRate": 5
+      }
+    ],
+    "skillsWheel": [
+      { "name": "Financial Modeling", "level": 90, "color": "#3498db" },
+      { "name": "Data Analysis", "level": 85, "color": "#2ecc71" },
+      { "name": "Market Research", "level": 80, "color": "#e74c3c" },
+      { "name": "Valuation", "level": 85, "color": "#f39c12" },
+      { "name": "Risk Management", "level": 75, "color": "#9b59b6" },
+      { "name": "Communication", "level": 80, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Junior Analyst",
+      "Senior Analyst",
+      "Associate",
+      "Vice President",
+      "Managing Director"
+    ],
+    "industryConnections": [
+      { "name": "Goldman Sachs", "color": "#e74c3c" },
+      { "name": "JPMorgan Chase", "color": "#2ecc71" },
+      { "name": "Morgan Stanley", "color": "#3498db" },
+      { "name": "BlackRock", "color": "#f39c12" },
+      { "name": "Citigroup", "color": "#9b59b6" },
+      { "name": "Bank of America", "color": "#1abc9c" }
+    ],
+    "courseBubbleChart": [
+      { "name": "Corporate Finance", "size": 150, "color": "#3498db" },
+      { "name": "Investment Analysis", "size": 140, "color": "#2ecc71" },
+      { "name": "Financial Econometrics", "size": 120, "color": "#e74c3c" },
+      { "name": "Derivatives", "size": 110, "color": "#f39c12" },
+      { "name": "Mergers & Acquisitions", "size": 130, "color": "#9b59b6" },
+      { "name": "Portfolio Management", "size": 125, "color": "#1abc9c" }
+    ],
+    "successFactorsPyramid": [
+      { "name": "Analytical Skills", "width": 200, "color": "#3498db" },
+      { "name": "Financial Acumen", "width": 300, "color": "#2ecc71" },
+      { "name": "Market Knowledge", "width": 400, "color": "#e74c3c" },
+      { "name": "Networking", "width": 500, "color": "#f39c12" },
+      { "name": "Quantitative Skills", "width": 600, "color": "#9b59b6" }
+    ]
+  },
+  "corporateLawyer": {
+    "title": "Corporate Lawyer (M&A Specialist) Career Path",
+    "timeline": [
+      {
+        "stage": "High School",
+        "color": "#3498db",
+        "milestones": ["Debate Club", "Mock Trial", "AP Government"]
+      },
+      {
+        "stage": "Undergraduate",
+        "color": "#2ecc71",
+        "milestones": [
+          "Pre-Law or Business Degree",
+          "Internship at Law Firm",
+          "LSAT Preparation"
+        ]
+      },
+      {
+        "stage": "Law School",
+        "color": "#9b59b6",
+        "milestones": [
+          "JD Program",
+          "Law Review",
+          "Summer Associate at Corporate Law Firm"
+        ]
+      },
+      {
+        "stage": "Career",
+        "color": "#e74c3c",
+        "milestones": [
+          "Junior Associate at BigLaw",
+          "Senior Associate",
+          "Partner specializing in M&A"
+        ]
+      }
+    ],
+    "educationRoadmap": [
+      { "name": "High School Diploma", "icon": "FaGraduationCap" },
+      { "name": "Bachelor's Degree", "icon": "FaBook" },
+      { "name": "Juris Doctor (JD)", "icon": "FaUserGraduate" },
+      { "name": "Bar Admission", "icon": "FaGavel" }
+    ],
+    "universityComparison": [
+      {
+        "name": "Harvard Law",
+        "gpa": 3.8,
+        "lsat": "170-175",
+        "admissionRate": 13
+      },
+      { "name": "Yale Law", "gpa": 3.9, "lsat": "170-176", "admissionRate": 9 },
+      {
+        "name": "Columbia Law",
+        "gpa": 3.7,
+        "lsat": "170-174",
+        "admissionRate": 16
+      },
+      { "name": "NYU Law", "gpa": 3.8, "lsat": "169-172", "admissionRate": 23 }
+    ],
+    "skillsWheel": [
+      { "name": "Legal Analysis", "level": 90, "color": "#3498db" },
+      { "name": "Negotiation", "level": 85, "color": "#2ecc71" },
+      { "name": "Contract Drafting", "level": 85, "color": "#e74c3c" },
+      { "name": "Due Diligence", "level": 80, "color": "#f39c12" },
+      { "name": "Corporate Finance", "level": 75, "color": "#9b59b6" },
+      { "name": "Client Relations", "level": 80, "color": "#1abc9c" }
+    ],
+    "careerLadder": [
+      "Junior Associate",
+      "Mid-level Associate",
+      "Senior Associate",
+      "Junior Partner",
+      "Senior Partner"
+    ],
+    "industryConnections": [
+      { "name": "Skadden, Arps, Slate, Meagher & Flom", "color": "#e74c3c" },
+      { "name": "Wachtell, Lipton, Rosen & Katz", "color": "#2ecc71" },
+      { "name": "Latham & Watkins", "color": "#3498db" },
+      { "name": "Kirkland & Ellis", "color": "#f39c12" },
+      { "name": "Sullivan & Cromwell", "color": "#9b59b6" },
+      { "name": "Cravath, Swaine & Moore", "color": "#1abc9c" }
+    ],
+    "courseBubbleChart": [
+      { "name": "Corporate Law", "size": 150, "color": "#3498db" },
+      { "name": "Mergers & Acquisitions", "size": 140, "color": "#2ecc71" },
+      { "name": "Securities Regulation", "size": 120, "color": "#e74c3c" },
+      { "name": "Contract Law", "size": 130, "color": "#f39c12" },
+      { "name": "Business Organizations", "size": 110, "color": "#9b59b6" },
+      { "name": "Negotiation & Mediation", "size": 100, "color": "#1abc9c" }
+    ],
+    "successFactorsPyramid": [
+      { "name": "Legal Expertise", "width": 200, "color": "#3498db" },
+      { "name": "Business Acumen", "width": 300, "color": "#2ecc71" },
+      { "name": "Communication Skills", "width": 400, "color": "#e74c3c" },
+      { "name": "Attention to Detail", "width": 500, "color": "#f39c12" },
+      { "name": "Networking", "width": 600, "color": "#9b59b6" }
+    ]
+  }
+}
